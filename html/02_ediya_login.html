@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!-- 02_ediya_login.html -->
+<html lang="ko-KR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <link rel="stylesheet" href="../css/src/02_ediya_login.css">
+
+  <script src="../js/common/modernizr-custom.js"></script>
+
+  <title>EDIYA</title>
+  <link rel="shortcut icon" href="../img/ediyamark.png" type="image/png">
+  <link rel="apple-touch-icon" href="../img/ediyamark.png">
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <div class="head_inner">
+        <h1>
+          <a href="../html/01_ediya_main.html" class="blind">이디야</a>
+          <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야"></button>
+        </h1>
+        <nav class="unb">
+          <h2 class="blind">유틸리티네비게이션</h2>
+          <div class="about_part">
+            <a href="../html/03_ediya_about.html">
+              <span onclick="about()">about</span>
+            </a>
+          </div>
+          <div class="login_part">
+            <a href="../html/02_ediya_login.html">
+              <span onclick="login()">login</span>
+            </a>
+          </div>
+          <div class="search_part">
+            <h3 class="blind">search navigation</h3>
+            <form action="." method="GET">
+              <fieldset>
+                <legend class="blind">search area</legend>
+                <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                <input type="search" id="unbsearchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                <button type="button" class="search_btn">search</button>
+              </fieldset>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="head_inner02">
+        <nav class="gnb">
+          <h2 class="blind">글로벌네비게이션</h2>
+          <div class="submenu_part">
+            <button class="btn_part">메뉴</button>
+            <div class="submenu_inner">
+              <a href="#">음료</a>
+              <a href="#">푸드</a>
+              <a href="#">md</a>
+            </div>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">상품권</button>
+            <div class="submenu_inner">
+              <a href="#">기프트카드</a>
+              <a href="#">모바일 상품권</a>
+              <a href="#">단체 기업 구매</a>
+            </div>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">이디야멤버스</button>
+            <div class="submenu_inner">
+              <a href="#">멤버스 소개</a>
+              <a href="#">이디야 카드</a>
+              <a href="#">선물하기</a>
+              <a href="#">이디야오더</a>
+              <a href="#">자주하는 질문</a>
+            </div>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">유통제품</button>
+            <div class="submenu_inner">
+              <a href="#">스틱커피(비니스트)</a>
+              <a href="#">커피믹스</a>
+              <a href="#">캡슐커피</a>
+              <a href="#">컵커피</a>
+              <a href="#">수출입거래</a>
+              <a href="#">b2b/특판/대리점 거래</a>
+            </div>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">사회공헌</button>
+            <div class="submenu_inner">
+              <a href="#">메이트 희망기금</a>
+              <a href="#">캠퍼스 희망기금</a>
+              <a href="#">식수위생 캠페인</a>
+              <a href="#">이디야 동행</a>
+              <a href="#">기타 활동</a>
+            </div>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">공지사항</button>
+            <div class="submenu_inner">
+              <a href="#">이디야 소식</a>
+              <a href="#">이벤트</a>
+              <a href="#">홈카페 레시피</a>
+            </div>
+          </div>
+          <div class="submenu_part">
+            <button class="btn_part">고객소리</button>
+          </div>
+        </nav>
+      </div>
+      <div class="header_m">
+        <nav id="unbInner">
+          <h2 class="blind">user navigation</h2>
+              <input type="checkbox" id="check_box">
+              <label for="check_box">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <div id="slide_menu">
+                <div class="slide_inner">
+                  <input type="checkbox" id="slide_btn01">
+                  <label for="slide_btn01">이디야</label>
+                  <div>
+                    <a href="../html/03_ediya_about.html">about</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn02">
+                  <label for="slide_btn02">메뉴</label>
+                  <div>
+                    <a href="#">음료</a>
+                    <a href="#">푸드</a>
+                    <a href="#">md</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn03">
+                  <label for="slide_btn03">상품권</label>
+                  <div>
+                    <a href="#">기프트카드</a>
+                    <a href="#">모바일 상품권</a>
+                    <a href="#">단체 기업 구매</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn04">
+                  <label for="slide_btn04">이디야멤버스</label>
+                  <div>
+                    <a href="#">멤버스 소개</a>
+                    <a href="#">이디야 카드</a>
+                    <a href="#">선물하기</a>
+                    <a href="#">이디야오더</a>
+                    <a href="#">자주하는 질문</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn05">
+                  <label for="slide_btn05">유통제품</label>
+                  <div>
+                    <a href="#">스틱커피(비니스트)</a>
+                    <a href="#">커피믹스</a>
+                    <a href="#">캡슐커피</a>
+                    <a href="#">컵커피</a>
+                    <a href="#">수출입거래</a>
+                    <a href="#">b2b/특판/대리점 거래</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn06">
+                  <label for="slide_btn06">사회공헌</label>
+                  <div>
+                    <a href="#">메이트 희망기금</a>
+                    <a href="#">캠퍼스 희망기금</a>
+                    <a href="#">식수위생 캠페인</a>
+                    <a href="#">이디야 동행</a>
+                    <a href="#">기타 활동</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn07">
+                  <label for="slide_btn07">공지사항</label>
+                  <div>
+                    <a href="#">이디야 소식</a>
+                    <a href="#">이벤트</a>
+                    <a href="#">홈카페 레시피</a>
+                  </div>
+                  <input type="checkbox" id="slide_btn08">
+                  <label for="slide_btn08"><a href="#">고객소리</a></label>
+              </div>
+              
+            <div class="sns_part">
+              <h3 class="blind">search navigation</h3>
+              <ul>
+                <li>
+                  <button onclick="login()"><img src="../img/minilogin.svg" alt="로그인페이지로 이동"></button>
+                  <button onclick="sns_F()"><img src="../img/facebooklogo_color.png" alt="페이스북으로 이동"></button>
+                  <button onclick="sns_I()"><img src="../img/instagramlogo_color.png" alt="인스타그램으로 이동"></button>
+                  <button onclick="sns_N()"><img src="../img/NAVER_blog_icon_1.png" alt="네이버 블로그로 이동"></button>
+                </li>
+              </ul>
+            </div>
+            <div class="search_part">
+              <h3 class="blind">search navigation</h3>
+              <form action="." method="GET">
+                <fieldset>
+                  <legend class="blind">search area</legend>
+                  <label for="searchInput" class="blind">가까운 매장을 찾아보세요</label>
+                  <input type="search" id="searchInput" name="search__Input" value="" placeholder="가까운 매장 찾기">
+                  <button type="button" class="search_btn">search</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- #headBox -->
+    
+    <div class="mainBox">
+      <section id="loginBox">
+        <div class="login_area">
+          <h2 class="logintext">로그인</h2>
+          <ul class="welcometext">
+            <li>이디야커피에 오신 것을 환영합니다.</li>
+          </ul>
+          <div class="loginmain">
+            <div class="login_inner">
+              <form action="#" method="POST">
+                <fieldset class="privite">
+                  <legend class="blind">개인정보 입력창</legend>
+                  <ul>
+                    <li>
+                      <input type="text" id="userId" name="user__Id" value="" placeholder="이메일">
+                    </li>
+                    <li>
+                      <input type="password" id="userPw" name="user__Pw" value="" placeholder="비밀번호">
+                    </li>
+                  </ul>
+                </fieldset>
+              </form>
+            </div>
+            <div class="checkbox_inner">
+              <input type="checkbox" name="login__check" id="idcheck" value="logincheck-true">
+              <div class="id_check_inner"><span>이메일 저장</span></div>
+            </div>
+            <fieldset class="login_btn">
+              <legend class="blind">로그인처리</legend>
+              <div class="login">
+                <button type="submit">로그인</button>
+              </div>
+            </fieldset>
+            <div class="etc_area">
+              <ul>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">이메일 찾기</a></li>
+                <li><a href="#">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="membership_area">
+            <i>
+              회원님께 더 좋은 서비스를 제공해드리고자,<br>
+              선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br>
+              회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br>
+              본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
+            </i>
+            <button id="open">이디야 멤버십 가입정보 찾기</button>
+          </div>
+
+          <!-- modal -->
+          <div class="modal on">
+            <div class="modal_overlay"></div>
+            <div class="modal_content">
+              <div class="modalHeader">
+                <h2>이디야 멤버십 가입정보 찾기</h2>
+                <button><img src="../img/close.svg" alt="닫기"></button>
+              </div>
+              <i>
+                회원님께 더 좋은 서비스를 제공해드리고자,<br>
+                선물하기, 이디야카드, 스마트오더 등의 서비스를 추가하여 더욱 새로워졌습니다.<br>
+                회원님께서 새로운 서비스를 이용하시기 위해서는 본인 인증이 필요합니다.<br>
+                본인인증은 1회만 진행하며, 인증후, 더 편리하게 서비스를 이용하실 수 있습니다.
+              </i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- #footBox -->
+    <footer id="footBox">
+      <div class="foot_inner">
+        <div class="foot_main">
+          <h2>
+            <button onclick="home()"><img src="../img/ediyalogo.png" alt="이디야로고"></button>
+          </h2>
+          <div class="company_info">
+            <ul>
+              <li>(주)이디야커피</li>
+              <li>사업자등록번호:107-86-16302</li>
+              <li>대표이사:문창기</li>
+            </ul>
+            <ul>
+              <li>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동 221-17)</li>
+            </ul>
+            <ul>
+              <li>통신판매업 신고:강남 제 002519호</li>
+              <li>TEL:02-543-6457</li>
+              <li>FAX:02-543-7191</li>
+            </ul>
+            <P>COPYRIGHTⓒ 2018 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED.</p>
+          </div>
+          <div class="footsubmenu">
+            <div class="language_part">
+              <button type="button" class="language_btn">
+                <img src="../img/language.svg" alt="언어선택">
+              </button>
+              <ul>
+                <li>
+                  <button type="button">korean</button>
+                </li>
+                <li>
+                  <button type="button">english</button>
+                </li>
+                <li>
+                  <button type="button">chinese</button>
+                </li>
+                <li>
+                  <button type="button">japanese</button>
+                </li>
+              </ul>
+            </div>
+            <div class="brandsite_part">
+              <button type="button" class="brandsite_btn">
+                <span>관계자 사이트</span>
+              </button>
+              <ul>
+                <li>
+                  <button type="button">기업사이트</button>
+                </li>
+                <li>
+                  <button type="button">창업안내</button>
+                </li>
+                <li>
+                  <button type="button">채용안내</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="to_top">
+          <span></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- script -->
+  
+    <script src="../js/src/02_ediya_login.js"></script>
+    <script src="../js/src/pagemove.js"></script>
+    <script src="../js/src/footer.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* base.css */
+@import url("../01_ediyamain.md/a_main_base.css");
+@import url("../01_ediyamain.md/b_main_smartphone.css");
+@import url("../01_ediyamain.md/c_main_tablet.css");
+@import url("../01_ediyamain.md/d_main_laptop.css");
+@import url("../01_ediyamain.md/e_main_pc.css");
+@import url("../01_ediyamain.md/f_main_pcfull.css");

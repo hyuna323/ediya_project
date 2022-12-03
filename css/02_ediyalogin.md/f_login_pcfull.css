@@ -1,0 +1,486 @@
+/* f_login_pcfull.css */
+
+/* 1920px ~ */
+@media all and (min-width:1920px) {
+  #wrap {width: 100%; min-width: 1920px; }
+
+  /* #headBox ========================= */
+  #headBox { 
+    width:100%; height: 180px; 
+    box-sizing:border-box;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+  }
+  .head_inner {
+    width: 100%; min-width: 1920px;
+    height: 50%;
+    display: flex;
+    margin: auto; box-sizing: border-box;
+    padding: 16px 40px;
+  }
+
+  h1 {
+    width: 100%; min-width: 1340px; 
+    height: auto;
+    margin: auto;
+  }
+  h1 > button > img {
+    width: 100%; min-width: 280px;
+    height: 30px;
+    margin-top: 14px;
+  }
+
+  .unb {
+    width: 26.042%; min-width: 500px; 
+    height: auto;
+    display: flex;
+    float: right;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .about_part {
+    width: 5.208%; min-width: 100px;
+    height: 54px;
+    line-height: 54px;
+  }
+  .about_part a {
+    display: block;
+    width: auto;
+    height: 100%;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .login_part {
+    width: 100px;
+    height: 54px;
+    line-height: 54px;
+  }
+  .login_part a {
+    display: block;
+    font-size: 20px;
+    width: auto;
+    height: 100%;
+    text-decoration: none;
+  }
+
+  .search_part {
+    float: right;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 18px;
+  }
+  .search_part form {
+    width: auto;
+    height: auto;
+  }
+  .search_part fieldset {
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+  #unbsearchInput {
+    width: 44%; min-width: 220px;
+    height: 48px;
+    margin: auto;
+    margin-right: 8px;
+    padding-left: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #aaaaaa;
+  }
+  .search_btn {
+    width: 16%; min-width: 80px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #243c84;
+    color: #fff;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+
+  /* ---------------------------------- */
+  .head_inner02 {
+    width: 100%; min-width: 1920px;
+    height: 50%;
+    background-color: #243c84;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .gnb {
+    display: flex;
+    width: 62.7083%; min-width: 1204px; 
+    justify-content: space-between;
+    height: 100%;
+    margin: auto;
+  }
+
+  .submenu_part {
+    position: relative;
+    display: inline-block;
+  }
+  .btn_part {
+    width: 14.5148%; min-width: 172px;
+    height: 100%;
+    line-height: 48px;
+    border-radius : 4px;
+    font-weight: 300;
+    padding : 12px;
+    cursor : pointer;
+    font-size : 22px;
+    text-align: center;
+    color: #fff;
+  }
+  .submenu_inner {
+    width : 100%; min-width: 220px;
+    margin-left: -20px;
+    display : none;
+    position : absolute;
+    z-index : 1;
+    font-weight: 300;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .submenu_inner a {
+    display : block;
+    text-decoration : none;
+    font-size: 21px;
+    padding : 12px 6px;
+  }
+  .submenu_inner a:hover {
+    font-weight: 500;
+    font-size: 22px;
+    color: #243c84;
+    width: auto;
+  }
+  .submenu_part:hover .submenu_inner {
+    margin-left: -14px;
+    width: 220px;
+    display: block;
+    border: 1px solid #243c84;
+    justify-content: space-between;
+  }
+  
+  .header_m {display: none;}
+    
+  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 180px;}
+    
+/* #loginBox ============================ */
+  #loginBox {
+    width: 100%; min-width: 1920px;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    background-image: url(../../img/loginbackground768.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .login_area {
+    width: 100%; min-width: 1920px;
+    height: auto;
+    padding: 220px 120px 80px 120px;
+  }
+
+  .logintext {
+    width: 32.292%; min-width: 620px;
+    height: 114px;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .welcometext li {
+    width: 40.521%; min-width: 778px;
+    height: 72px;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    color: #fff;
+  }
+
+  .loginmain {
+    width: 600px; 
+    height: auto;
+    margin: auto;
+  }
+  .login_inner {
+    width: 100%; 
+    height: 190px;
+    margin: auto;
+  }
+
+  .privite {
+    width: 31.146%; min-width: 600px;
+    height: 190px;
+    border: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #userId {
+    width: 100%; min-width: 600px;
+    height: 90px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 14px;
+  }
+  #userPw {
+    width: 100%; min-width: 600px;
+    height: 90px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 14px;
+    margin-top: 10px;
+  }
+
+  .checkbox_inner {
+    display: flex;
+    width: 99.666%; min-width: 598px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: none;
+  }
+  .checkbox_inner input {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ededed;
+  }
+  .id_check_inner {
+    width: auto; height: auto;
+  }
+  .id_check_inner span {
+    width: auto; 
+    height: 35px;
+    margin: auto;
+    margin-left: 10px;
+    cursor: pointer;  
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .login_btn {
+    width: 31.25%; min-width: 600px; height: 75px;
+    border-radius: 5px;
+    background-color: #24305A;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .login {
+    width: 100%; 
+    height: 75px;
+    line-height: 75px;
+  }
+  .login button {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .etc_area {
+    width: 100%; min-width: 600px; 
+    height: 70px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 22px;
+  }
+  .etc_area ul {
+    width: 100%; height: 70px;
+    margin: auto;
+    text-align: center;
+  }
+  .etc_area li {
+    display: inline-block;
+    width: 29.5%; min-width: 177px; height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .membership_area {
+    width: 35.416%; min-width: 680px; height: 280px;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 25px;
+    text-align: center;
+    background-color:  rgba(238, 238, 238, 75%);
+    border-radius: 10px;
+  }
+  .membership_area > i {
+    width: 31.25%; min-width: 600px; height: 236px;
+    font-size: 19px;
+  }
+  
+  #open {
+    width: 66.176%; min-width: 450px; height: 60px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(36, 48, 90, 94%);
+    border-radius: 7px;
+  }
+  .modal {display: none;}
+  
+  /* #footBox =========================================== */
+  #footBox {
+    float: left;
+    width: 100%; min-width: 1920px;
+    height: auto;
+    border-top: 3px solid #243c84;
+  }
+  .foot_inner {
+    width: 71.1458%; min-width: 1366px; height: auto;
+    margin: 34px auto;
+  }
+
+  .foot_main {
+    color: #000;
+    text-align: center;
+    position: relative;
+  }
+  .foot_main h2 {
+    width: auto;
+    margin-bottom: 28px;
+  }
+  .foot_main h2 button img {
+    width: 14.5833%; min-width: 280px; 
+    height: 28px;
+    margin: auto;
+    display: block;
+  }
+  .foot_main .company_info {
+    width: 100%; min-width: 1366px;
+    height: auto;
+  }
+  .foot_main .company_info li {
+    font-size: 21px;
+    display: inline-block;
+  }
+  .foot_main .company_info li::after {
+    padding: 0 14px;
+    content: 'l';
+  }
+  .foot_main p {
+    font-size: 18px;
+    margin-top: 26px;
+    font-weight: 400;
+  }
+  .foot_main .footsubmenu {
+    width: 14.583%; min-width: 320px; 
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+
+  .language_part {
+    width: 50%;
+  }
+  .language_btn {
+    width: 100%; 
+    height: 60px;
+    margin-top: 6px;
+  }
+  .language_btn img {
+    width: 45px; height: 45px;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 8px;
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .language_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+  .language_part li {
+    width: auto; height: 30px;
+    line-height: 20px;
+  }
+  .language_part li button { text-transform: uppercase; }
+
+  .brandsite_part {
+    width: 50%;
+    margin-left: 5px;
+  }
+  .brandsite_part li {
+    width: auto; height: 35px;
+    line-height: 25px;
+  }
+  .brandsite_part li button {
+    font-size: 20px;
+    text-transform: uppercase; 
+  }
+  .brandsite_btn {
+    width: 100%; height: 60px;
+    line-height: 42px;
+    background-color: #243c84;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+  }
+  .brandsite_part ul {
+    display: none;
+    width: 100%; height: auto;
+    margin-top: 10px;
+    padding: 5px 8px;
+    /* margin-bottom: 25px; */
+    border: 1px solid #262626;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+  .brandsite_part ul.on {
+    display: block;
+    width: 100%; height: auto;
+  }
+
+  .to_top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 4%;
+    z-index: 1;
+  }
+  .to_top.on {
+    display: block;
+  }
+  .to_top span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url(../../img/to_top2color.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .to_top span:hover {
+    background: url(../../img/to_top_fill.svg)no-repeat center;
+    background-size: 60px;
+  }
+  .footInner_m {display: none;}
+} /* 1920px ~ =========================================== */
