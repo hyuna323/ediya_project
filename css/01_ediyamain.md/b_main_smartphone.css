@@ -304,7 +304,7 @@
     text-align: right;
     text-transform: uppercase;
   }
-  .bk_TX .right_more {
+  .bk_TX button {
     width: 18.75%; min-width: 60px;
     padding: 1.07692308%;
     margin: 5px 5%;
