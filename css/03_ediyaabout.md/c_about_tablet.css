@@ -506,6 +506,7 @@
   .language_part li button { 
     font-size: 16px;
     text-transform: uppercase;
+    color: #000;
   }
   
   .brandsite_part {
@@ -541,6 +542,7 @@
   .brandsite_part li button { 
     font-size: 16px;
     text-transform: uppercase;
+    color: #000;
   }
   
   .to_top {

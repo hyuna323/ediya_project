@@ -416,7 +416,10 @@
     width: auto; height: 30px;
     line-height: 20px;
   }
-  .language_part li button { text-transform: uppercase;}
+  .language_part li button { 
+    text-transform: uppercase;
+    color: #000;
+  }
 
   .brandsite_part {
     width: 50%;

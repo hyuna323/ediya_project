@@ -512,6 +512,7 @@
   .ediyastory_more {
     float: right;
     font-size: 15px;
+    color: #000;
     width: 15.885%; min-width: 122px; height: 36px;
     line-height: 36px;
     border: 1px solid #151515;

@@ -513,6 +513,7 @@
   .ediyastory_more {
     float: right;
     font-size: 11px;
+    color: #000;
     width: 100%; min-width: 60px; height: 16px;
     line-height: 16px;
     text-transform: uppercase;
