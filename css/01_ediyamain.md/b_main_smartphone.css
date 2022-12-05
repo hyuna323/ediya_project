@@ -3,9 +3,6 @@
 /* (디자인기준: 320px) ~ 767px */
 @media all and (max-width:767px) {
   #wrap {width: 100%; min-width: 320px; min-height: 600px;}
-  button, html [type="button"] {
-    -webkit-appearance: none;   
-  }
 
   /* #headBox ==================================== */
   #headBox {
