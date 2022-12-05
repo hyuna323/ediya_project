@@ -1,9 +1,6 @@
 #wrap {width: 960px; height: auto; min-height: 500px;
   font-family: 'Noto Sans KR', sans-serif;
 }
-input[type=button] {
-  -webkit-appearance: none !important;
-}
 #headBox {width: 100%;}
 #viewBox {margin: auto;}
 #footBox {width: 100%;}

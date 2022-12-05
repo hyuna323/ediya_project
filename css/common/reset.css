@@ -32,7 +32,9 @@ select, input {
 
 input[type="text"],
 input[type="password"] { text-indent: 0.5rem;}
-button, html [type="button"] {-webkit-appearance: none; }
+input[type=button] {
+  -webkit-appearance: none !important;
+}
 
 select,input,textarea { cursor: pointer;}
 
