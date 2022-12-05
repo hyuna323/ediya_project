@@ -1,3 +1,4 @@
+'use strict';
 
 // modal --------------------------
 const openButton = document.getElementById("open");
