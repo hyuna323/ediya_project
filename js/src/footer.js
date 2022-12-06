@@ -1,4 +1,3 @@
-'use strict';
 
 // Top 맨위로 ====================================
 const ToTop = document.querySelector('.to_top');
