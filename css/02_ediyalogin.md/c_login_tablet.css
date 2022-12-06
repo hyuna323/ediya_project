@@ -99,6 +99,7 @@
     top: 0px;
     padding: 60px 16px 20px 16px;
     box-sizing: border-box;
+    overflow: auto;
   }
 
   input[id*="slide_btn"] {
