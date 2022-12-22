@@ -33,7 +33,6 @@
 
   .unb {
     display: flex;
-    float: right;
     width: 35.156%; min-width: 450px; 
     height: 46px;
     text-transform: uppercase;
@@ -130,7 +129,7 @@
     line-height: 48px;
     border-radius : 4px;
     font-weight: 300;
-    padding : 12px;
+    padding  : 12px;
     cursor : pointer;
     font-size : 18px;
     text-align: center;
@@ -170,59 +169,77 @@
 
     
   /* #viewBox ========================= */
-  #viewBox {
-    width: 100%; min-width: 1280px;
+  .swiper-slide img {
+    display: block;
+    width: 100%;
     height: auto;
-    box-sizing: border-box;
-    position: relative;
-  }
-  .view_outer {
-    width: 100%; min-width: 1280px; height: auto;
-  }
-  .viewport {
-    width: 100%; min-width: 1280px; height: auto;
-  }
-  .viewport img {
-    width: 100%; min-width: 1280px; height: auto;
-  }
-
-  .dotBox {
-    width: 100%; min-width: 1280px; height: 35px;
-    margin-bottom: 15px;
-    margin-top: -45px;
-  }
-  .dot {
-    width: 15px;
-    height: 15px;
     cursor: pointer;
-    margin: 0px 2px;
-    background-color: #bbb;
+  }
+  .container{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1080px;
+    padding: 30px 20px;
+  }
+  .swiper-slide {
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+  }
+  .swiper-pagination-bullet {
+    /* display: none; */
+    width: 40px;
+    height: 3px;
+    border-radius: 0;
+    background-color: #fff;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #fff;
+    width: 80px;
+  }
+
+  .swiper-button-next.swiper-button-disabled, 
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(240, 240, 240, 0.7);
+    backdrop-filter: blur(3px);
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1001;
     border-radius: 50%;
-    display: inline-block;
-    transition: 0.6s ease;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
   }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .43} 
-    to {opacity: 1}
+  .swiper-button-next::after, .swiper-rtlswiper-button-next::after, .swiper-button-prev::after, 
+  .swiper-rtlswiper-button-prev::after {display: none;}
+  .swiper-button-prev:hover, 
+  .swiper-button-next:hover {
+    background-color: #004fff;
+    box-shadow: 0 4px 12px rgba(0, 79, 255, 0.4);
+  }
+  .swiper-button-prev {
+    background-image: url(../../img/arrow_left.png);
+    left: 20px;
+  }
+  .swiper-button-prev:hover {
+    background-image: url(../../img/left.png);
+  }
+  .swiper-button-next {
+    background-image: url(../../img/arrow_right.png);
+    right: 20px;
+  }
+  .swiper-button-next:hover {
+    background-image: url(../../img/right.png);
   }
 
-  @keyframes fade {
-    from {opacity: .3} 
-    to {opacity: 1}
-  }
-
-  .active {
-    background-color: #717171;
-  }
-
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
   
 /* #storefindBox ========================= */
   #content_box_wrap {width: 100%; min-width: 1280px; height: auto;}
@@ -723,4 +740,10 @@
     background-size: 50px;
   }
   .footInner_m {display: none;}
+
+  /* *{
+    box-sizing: border-box;
+  } */
+
+
 } /* 1280px ~ 1439px ============================================== */

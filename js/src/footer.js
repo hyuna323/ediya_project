@@ -36,7 +36,7 @@ elLanguagePart.addEventListener('mouseleave', e => {
   LelUl.classList.remove('on');
 });
 
-// 관계자 선택
+// 관련 선택
 //footsubmenu 선택, language part 선택, language_btn선택 ul 선택
 const elfootSubmenu = document.querySelector('.footsubmenu');
 const elBrandsitePart = elfootSubmenu.querySelector('.brandsite_part');
