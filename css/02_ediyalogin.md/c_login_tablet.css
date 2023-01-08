@@ -16,23 +16,24 @@
   }
   .head_inner {
     width: 100%; max-width: 1279px; min-width: 768px;
-    margin: auto; box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
   }
-
   h1 {
     float: left;
     width: 13.4375%; min-width: 180px; height: auto;
   }
-  h1 > button > img {
+  h1 button img {
     width: 23.4375%; min-width: 180px;
     height: 20px;
     margin-bottom: 1.111px;
   }
-
   .unb {display: none;}
   .gnb {display: none;}
 
-  #headBox .header_m {padding-left: 13.375%;}
+  #headBox .header_m {
+    padding-left: 13.375%;
+  }
   .header_m {
     float: right;
     width: 19.531%; min-width: 150px; 
@@ -42,11 +43,12 @@
     box-sizing: border-box;
   }
 
-  #unbInner {width: 7.8125%; min-width: 60px; padding: 0;}
-
-  #check_box {
-    display: none;
+  #unbInner {
+    width: 7.8125%; min-width: 60px;
+    padding: 0;
   }
+
+  #check_box {display: none;}
   #check_box + label {
     position: relative;
     display: block;
@@ -102,9 +104,7 @@
     overflow: auto;
   }
 
-  input[id*="slide_btn"] {
-    display: none;
-  }
+  input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     display: block;
@@ -132,11 +132,10 @@
   input[id*="slide_btn"]:checked + label + div {
     max-height: inherit;
   }
-
   .search_part {
     height: auto;
   }
-  .search_part > form {
+  .search_part form {
     width: auto;
     height: auto;
   }
@@ -160,8 +159,10 @@
     color: #fff;
     text-transform: capitalize;
   }
-
-  .sns_part ul {width: 100%; height: auto;}
+  .sns_part ul {
+    width: 100%;
+    height: auto;
+  }
   .sns_part li {
     width: 96%; height: auto;
     margin: 16px 5px 14px 5px;
@@ -172,8 +173,14 @@
     margin-right: 10px;
     color: #aaa;
   }
-
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 70px;}
+  .mainBox {
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 70px;
+  }
 
 /* #loginBox ============================ */
   #loginBox {
@@ -191,7 +198,6 @@
     height: auto;
     padding: 100px 120px 160px 120px;
   }
-
   .logintext {
     width: 46.0938%; min-width: 354px;
     height: 98px;
@@ -201,7 +207,6 @@
     text-align: center;
     font-size: 20px;
   }
-
   .welcometext li {
     width: 60.677%; min-width: 466px;
     height: 60px;
@@ -211,7 +216,6 @@
     padding: 15px 0;
     color: #fff;
   }
-
   .loginmain {
     width: 61.1979%; min-width: 470px;
     height: 376px;
@@ -221,7 +225,6 @@
     width: 100%; height: 154px;
     margin: auto;
   }
-
   .privite {
     width: 61.1979%; min-width: 470px;
     height: 154px;
@@ -229,6 +232,7 @@
     margin: auto;
     margin-top: 30px;
   }
+
   #userId {
     width: 100%; min-width: 450px;
     height: 72px;
@@ -242,7 +246,6 @@
     font-size: 15px;
     margin-top: 10px;
   }
-
   .checkbox_inner {
     display: flex;
     width: 65.1042%; min-width: 460px;
@@ -268,7 +271,6 @@
     color: #fff;
     font-size: 14px;
   }
-
   .login_btn {
     width: 61.1979%; min-width: 470px; height: 72px;
     border-radius: 5px;
@@ -286,7 +288,6 @@
     font-size: 18px;
     font-weight: 500;
   }
-
   .etc_area {
     width: 100%; min-width: 470px; height: 72px;
     padding-top: 30px;
@@ -307,12 +308,11 @@
     margin-right: 5px;
     border-radius: 5px;
   }
-  
   .membership_area {
     width: 54.6875%; min-width: 420px; height: 130px;
     margin: auto;
   }
-  .membership_area > i {display: none;}
+  .membership_area  i {display: none;}
 
   #open {
     width: 100%; min-width: 420px; height: 50px;
@@ -382,9 +382,7 @@
     height: 100%;
     font-size: 13px;
   }
-  .on {
-    display: none;
-  }
+  .on {display: none;}
     
   /* #footBox ========================================== */
   #footBox {
@@ -398,7 +396,6 @@
     margin: 20px auto;
     position: relative;
   }
-  
   .foot_main {
     color: #000;
     font-weight: 300;
@@ -439,7 +436,6 @@
     top: 0px;
     right: 0;
   }
-
   .language_part {
     width: 50%;
   }
@@ -475,7 +471,6 @@
     text-transform: uppercase;
     color: #000;
   }
-
   .brandsite_part {
     width: 50%;
   }
@@ -511,7 +506,6 @@
     text-transform: uppercase;
     color: #000;
   }
-
   .to_top {
     display: none;
     position: fixed;

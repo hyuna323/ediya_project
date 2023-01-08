@@ -17,46 +17,50 @@
   }
   .head_inner {
     width: 100%; max-width: 767px; min-width: 320px;
-    margin: auto; box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
   }
-
   h1 {
+    width: 33.75%; min-width: 108px; 
+    height: auto;
     float: left;
-    width: 33.75%; min-width: 108px; height: auto;
   }
-  .head_inner > h1 > button > img {
-    width: 100%; min-width: 108px; height: 12px;
+  .head_inner h1 button img {
+    width: 100%; min-width: 108px;
+    height: 12px;
   }
-
   .unb {display: none;}
   .gnb {display: none;}
-
-  #headBox .header_m {padding-left: 34.375%;}
+  #headBox .header_m {
+    padding-left: 34.375%;
+  }
   .header_m {
     float: right;
-    width: 46.875%; min-width: 150px; height: 26px;
+    width: 46.875%; min-width: 150px;
+    height: 26px;
     margin: auto;
     margin-top: 10px;
     box-sizing: border-box;
   }
-
-  #unbInner {width: 13.75%; min-width: 44px; padding: 0;}
-  
+  #unbInner {
+    width: 13.75%; min-width: 44px;
+    padding: 0;
+  }
   #check_box {display: none;}
   #check_box + label {
-    position: relative;
-    display: block;
     width: 11.875%; min-width: 38px;
     height: 20px;
+    margin: auto;
+    position: relative;
+    display: block;
     cursor: pointer;
     z-index: 100;
-    margin: auto;
   }
   #check_box + label > span {
-    position: absolute;
-    display: block;
     width: 100%;
     height: 3px;
+    position: absolute;
+    display: block;
     background: black;
     border-radius: 5px;
     transition: all 300ms;
@@ -85,9 +89,9 @@
     left: 40px;
   }
   #slide_menu {
-    position: fixed;
     width: 100%; min-width: 281px;
     height: 100%;
+    position: fixed;
     background-color: rgba(36, 48, 90, 86%);
     text-transform: uppercase;
     left: 100%;
@@ -120,14 +124,12 @@
     color: #fff;
   }
   input[id*="slide_btn"] + label + div a {
-    display: inline-block;
     padding: 10px;
     display: flex;
   }
   input[id*="slide_btn"]:checked + label + div {
     max-height: inherit;
   }
-
   .search_part {
     height: auto;
   }
@@ -155,8 +157,10 @@
     color: #fff;
     text-transform: capitalize;
   }
-
-  .sns_part ul {width: 100%; height: auto;}
+  .sns_part ul {
+    width: 100%;
+    height: auto;
+  }
   .sns_part li {
     width: 96.25%; min-width: 308px;
     height: auto;
@@ -164,25 +168,32 @@
     color: #ddd;
   }
   .sns_part button img {
-    width: 26px; height: 26px;
+    width: 26px;
+    height: 26px;
     margin-right: 5px;
   }
 
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 60px;}
+  .mainBox {
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 60px;
+  }
       
   /* #viewBox ========================= */
   .swiper-slide img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
     cursor: pointer;
   }
   .container{
-    position: relative;
+    width: 100%; max-width: 1080px;
     margin: auto;
-    width: 100%;
-    max-width: 1080px;
     padding: 30px 20px;
+    position: relative;
   }
   .swiper-slide {
     width: 100%;
@@ -190,7 +201,6 @@
     background-color: #eee;
   }
   .swiper-pagination-bullet {
-    /* display: none; */
     width: 40px;
     height: 3px;
     border-radius: 0;
@@ -200,12 +210,10 @@
     background-color: #fff;
     width: 80px;
   }
-
   .swiper-button-next.swiper-button-disabled, 
   .swiper-button-prev.swiper-button-disabled {
     opacity: 0;
   }
-
   .swiper-button-next, .swiper-button-prev {
     width: 40px;
     height: 40px;
@@ -242,7 +250,6 @@
     background-image: url(../../img/right.png);
   }
 
-
   /* #storefindBox ========================= */
   #storefactory {display: none;}
   #dreamfactoryBox_full {display: none;}
@@ -250,20 +257,21 @@
 
   /* #storyBox ========================= */
   #shortcutBox {
-    width: 100%; min-width: 320px; 
-    max-width: 767px;
+    width: 100%; min-width: 320px; max-width: 767px;
     height: 236px;
     box-sizing: border-box;
   }
   .shortcut {
     width: 100%; min-width: 320px; 
     height: 236px;
-    margin: auto; box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
   }
   .sc_title {
-    width: 100%; min-width: 320px; height: 39px;
-    text-align: center;
+    width: 100%; min-width: 320px;
+    height: 39px;
     padding: 8px;
+    text-align: center;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -274,10 +282,10 @@
     height: 197px;
     padding: 0.625% 3.125% 3.125% 3.125%;
   }
-
   .drinkInner {
+    width: 49.875%;
+    height: 90px;
     float: left;
-    width: 49.875%; height: 90px;
     background-color: #ddd;
     background-image: url(../../img/drink.svg);
     background-size: 100%;
@@ -302,10 +310,10 @@
     border-radius: 3px;
     outline: solid 1px;
   }
-
   .bakeryInner {
     float: left;
-    width: 49.875%; height: 90px;
+    width: 49.875%; 
+    height: 90px;
     background-color: #aaa;
     background-image: url(../../img/bakery.svg);
     background-size: 100%;
@@ -314,9 +322,9 @@
   .bk_TX span {
     width: 86.875%; min-width: 139px;
     padding: 2.33333333% 6.66666667%;
+    float: right;
     font-size: 16px;
     font-weight: 400;
-    float: right;
     text-align: right;
     text-transform: uppercase;
   }
@@ -330,10 +338,10 @@
     border-radius: 3px;
     outline: solid 1px;
   }
-
   .mdInner {
+    width: 49.875%; 
+    height: 90px;
     float: left;
-    width: 49.875%; height: 90px;
     background-color: #aaa;
     background-image: url(../../img/md.svg);
     background-size: 100%;
@@ -342,15 +350,15 @@
   .md_TX span {
     width: 86.875%; min-width: 139px;
     padding: 3.33333333% 6.66666667%;
+    float: left;
     font-size: 16px;
     font-weight: 400;
-    float: left;
     text-transform: uppercase;
   }
-
   .bistroInner {
+    width: 49.875%;
+    height: 90px;
     float: left;
-    width: 49.875%; height: 90px;
     background-image: url(../../img/bistro.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -358,17 +366,16 @@
   .bst_TX span {
     width: 86.875%; min-width: 139px;
     padding: 2.33333333% 6.66666667%;
+    float: right;
     font-size: 16px;
     font-weight: 400;
-    float: right;
     text-align: right;
     text-transform: uppercase;
   }
 
   #storyBox {display: none;}
 
-
-  /* #membershipBox ========================= */
+  /* #dreamfactoryBox ========================= */
   #dreamfactoryBox {
     width: 100%; min-width: 320px;
     height: auto;
@@ -376,50 +383,55 @@
     background-color: #243c84;
   }
   .dreamfactory {
-    width: auto; height: auto;
+    width: auto;
+    height: auto;
     padding-top: 0.3125%;
     padding-left: 4.275%;
   }
   .dreamTxt {
-    width: 55.625%; min-width: 178px; height: auto;
+    width: 55.625%; min-width: 178px; 
+    height: auto;
     margin-top: 5%;
   }
   .dreamfactory ul li {
     width: 55.3125%; min-width: 177px;
     height: auto;
-    text-align: left;
     margin-top: 2.3125%;
     font-size: 10px;
+    text-align: left;
     color: #ffffff;
   }
   .dreamImg {
-    width: 40%; min-width: 128px; height: auto;
-    float: right;
+    width: 40%; min-width: 128px;
+    height: auto;
     margin-top: 19.9375%;
+    float: right;
   }
   .dreamfactory_btn {
-    float: left;
     width: 45.3125%; min-width: 145px;
     height: auto;
+    float: left;
   }
-  .dream_fc{
+  .dream_fc {
+    width: 21.25%; min-width: 68px;
+    height: 18px;
+    line-height: 18px;
     float: right;
+    background-color: #dddddd;
+    border-radius: 3px;
+    border: 0.8px solid #151515;
+    opacity: 0.6;
+    text-transform: uppercase;
     font-size: 10px;
     color: #000;
-    width: 21.25%; min-width: 68px; height: 18px;
-    line-height: 18px;
-    text-transform: uppercase;
-    border: 0.8px solid #151515;
-    background-color: #dddddd;
-    opacity: 0.6;
-    border-radius: 3px;
     cursor: pointer;
   }
-  .dream_lc{
+  .dream_lc  {
+    width: 21.25%; min-width: 68px;
+    height: 18px;
     float: right;
     font-size: 10px;
     color: #000;
-    width: 21.25%; min-width: 68px; height: 18px;
     line-height: 18px;
     text-transform: uppercase;
     border: 0.8px solid #151515;
@@ -431,18 +443,20 @@
 
 /* #companyaboutBox ========================= */
   #companyabBox {
-    float: left;
-    width: 100%; min-width: 320px;
+    width: 100%; min-width: 768px;
     height: auto;
+    float: left;
   }
   .franchise_inner {
-    float: left;
-    width: 40.625%; min-width: 130px; height: 114px;
+    width: 40.625%; min-width: 130px; 
+    height: 114px;
     margin: 5.3846154% 2.84615385% 5.3846154% 5.1307692%;
+    float: left;
   }
   .franchise {
+    width: 100%; min-width: 130px; 
+    height: 114px;
     float: left;
-    width: 100%; min-width: 130px; height: 114px;
     background-image: url(../../img/franchise.png);
     background-repeat: no-repeat;
     background-size: 100% 114px;
@@ -450,26 +464,27 @@
     color: #ffffff;
   }
   .franchise_TX {
-    float: right;
     width: 17.5%; min-width: 56px;
-    font-size: 12px;
-    text-align: right;
-    font-weight: 400;
     padding-right: 10px;
     padding-top: 10px;
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
   }
   .franchise_btn {
     width: 17.1875%; min-width: 55px;
     height: 12px;
-    float: right;
     margin-top: 30px;
     margin-right: -40px;
+    float: right;
   }
-  .franchise_gd{
+  .franchise_gd  {
+    width: 28.75%; min-width: 60px; 
+    height: 16px;
     float: right;
     font-size: 11px;
     color: #000;
-    width: 28.75%; min-width: 60px; height: 16px;
     line-height: 16px;
     text-transform: uppercase;
     border: 1px solid #151515;
@@ -478,11 +493,12 @@
     border-radius: 3px;
     cursor: pointer;
   }
-  .franchise_pt{
+  .franchise_pt {
+    width: 28.75%; min-width: 60px; 
+    height: 16px;
     float: right;
     font-size: 11px;
     color: #000;
-    width: 28.75%; min-width: 60px; height: 16px;
     line-height: 16px;
     margin-top: -30px;
     text-transform: uppercase;
@@ -492,18 +508,18 @@
     border-radius: 3px;
     cursor: pointer;
   }
-
   .sns_inner {display: none;}
-
   .ediyastory_inner {
-    float: right;
-    width: 40.625%; min-width: 130px; height: 114px;
+    width: 40.625%; min-width: 130px; 
+    height: 114px;
     margin: 5.3846154% 5.1846154% 5.3846154% 0.84615385%;
+    float: right;
     background-color: #ddd;
   }
   .ediyastory {
+    width: 100%; min-width: 130px; 
+    height: 114px;
     float: left;
-    width: 100%; min-width: 130px; height: 114px;
     background-image: url(../../img/ediyastory.png);
     background-repeat: no-repeat;
     background-size: 100% 114px;
@@ -511,28 +527,29 @@
     color: #ffffff;
   }
   .ediyastory_TX {
-    float: right;
     width: 100%; min-width: 130px;
-    font-size: 12px;
-    text-align: right;
-    font-weight: 400;
     padding-right: 7.69230769%;
     padding-top: 10px;
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
   }
   .ediyastory_btn {
     width: 17.1875%; min-width: 55px;
     height: 12px;
-    float: right;
     margin-top: 0px;
     margin-right: 15px;
+    float: right;
   }
   .ediyastory_more {
+    width: 100%; min-width: 60px; 
+    height: 16px;
     float: right;
     font-size: 11px;
-    color: #000;
-    width: 100%; min-width: 60px; height: 16px;
-    line-height: 16px;
     text-transform: uppercase;
+    color: #000;
+    line-height: 16px;
     border: 1px solid #151515;
     background-color: #dddddd;
     opacity: 0.6;
@@ -542,17 +559,17 @@
 
 /* #footBox ========================= */
   #footBox {
-    float: left;
     width: 100%; min-width: 320px;
     height: auto;
     border-top: 3px solid #243c84;
+    float: left;
   }
   .foot_inner {
-    width: 93.75%; min-width: 300px; height: auto;
+    width: 93.75%; min-width: 300px;
+    height: auto;
     margin: 10px auto;
     position: relative;
   }
-
   .foot_main {
     color: #000;
     text-align: center;
@@ -562,9 +579,9 @@
     width: 100%; min-width: 300px;
     margin: auto;
   }
-
   .foot_main h2 button img {
-    width: 28.125%; min-width: 90px; height: 18px;
+    width: 28.125%; min-width: 90px; 
+    height: 18px;
     margin: auto;
     display: block;
   }
@@ -581,7 +598,6 @@
     font-weight: 400;
   }
   .foot_main .footsubmenu {display: none;}
-  
   .to_top {
     display: none;
     position: fixed;

@@ -2,7 +2,7 @@
 
 /* 768px ~ 1279px */
 @media all and (min-width: 768px) and (max-width: 1279px) {
-  #wrap {width: 100%; min-width: 768px; min-height: 600px; }
+  #wrap {width: 100%; min-width: 768px; min-height: 600px;}
 
   /* headBox ========================= */
   #headBox {
@@ -16,23 +16,24 @@
   }
   .head_inner {
     width: 100%; min-width: 768px; max-width: 1279px;
-    margin: auto; box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
   }
-
   h1 {
     float: left;
     width: 23.4375%; min-width: 180px; height: auto;
   }
-  h1 > button > img {
+  h1 button img {
     width: 23.4375%; min-width: 180px;
     height: 20px;
     margin-bottom: 1.111px;
   }
-
   .unb {display: none;}
   .gnb {display: none;}
 
-  #headBox .header_m {padding-left: 13.375%;}
+  #headBox .header_m {
+    padding-left: 13.375%;
+  }
   .header_m {
     float: right;
     width: 19.531%; min-width: 150px; height: 22px;
@@ -41,8 +42,10 @@
     box-sizing: border-box;
   }
 
-  #unbInner {width: 7.8125%; min-width: 60px; padding: 0;}
-
+  #unbInner {
+    width: 7.8125%; min-width: 60px;
+    padding: 0;
+  }
   #check_box {
     display: none;
   }
@@ -100,10 +103,7 @@
     box-sizing: border-box;
     overflow: auto;
   }
-
-  input[id*="slide_btn"] {
-    display: none;
-  }
+  input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     display: block;
@@ -131,7 +131,6 @@
   input[id*="slide_btn"]:checked + label + div {
     max-height: inherit;
   }
-
   .search_part {
     height: auto;
   }
@@ -159,8 +158,10 @@
     color: #fff;
     text-transform: capitalize;
   }
-
-  .sns_part ul {width: 100%; height: auto;}
+  .sns_part ul {
+    width: 100%;
+    height: auto;
+  }
   .sns_part li {
     width: 96%; height: auto;
     font-size: 15px; font-weight: 500;
@@ -172,9 +173,14 @@
     margin-right: 10px;
     color: #aaa;
   }
-
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 70px;}
-
+  .mainBox {
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 70px;
+  }
 
   /* aboutBox ========================= */
   #aboutBox {
@@ -188,7 +194,6 @@
     width: 100%; min-width: 768px;
     height: auto;
   }
-
   h2 {
     width: 91.1458%; min-width: 700px;
     height: 34px;
@@ -197,7 +202,6 @@
     text-transform: uppercase;
     font-size: 22px;
   }
-
   .intro {
     width: 80.7292%; min-width: 620px; 
     height: auto;
@@ -208,7 +212,6 @@
     width: 100%; min-width: 620px;
     border-radius: 10px;
   }
-
   #about_inner01 {
     width: 91.1458%; min-width: 700px; 
     height: auto;
@@ -273,7 +276,6 @@
     height: 250px;
     border-radius: 10px; 
   }
-
   #about_inner02 {
     width: 91.1458%; min-width: 700px; 
     height: 100%;
@@ -340,7 +342,6 @@
     height: 250px;
     font-size: 16px;
   }
-
   #about_inner03 {
     width: 91.1458%; min-width: 700px; 
     height: 100%;
@@ -473,7 +474,6 @@
     top: 0px;
     right: 0;
   }
-  
   .language_part {
     width: 50%;
   }
@@ -509,7 +509,6 @@
     text-transform: uppercase;
     color: #000;
   }
-  
   .brandsite_part {
     width: 50%;
   }
@@ -545,7 +544,6 @@
     text-transform: uppercase;
     color: #000;
   }
-  
   .to_top {
     display: none;
     position: fixed;

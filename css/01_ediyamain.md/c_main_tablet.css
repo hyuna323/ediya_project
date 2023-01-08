@@ -1,12 +1,12 @@
 /* c_main_tablet.css */
 
 /* 768px ~ 1279px */
-@media all and (min-width:768px) and (max-width:1279px) {
-  #wrap {width: 100%; min-width: 768px; min-height: 600px; }
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #wrap {width: 100%; min-width: 768px; min-height: 600px;}
 
   /* headBox ========================= */
   #headBox {
-    width: 100%; min-width: 320px;
+    width: 100%; min-width: 768px;
     height: 70px;
     box-sizing: border-box;
     padding: 18px 20px;
@@ -18,47 +18,50 @@
     width: 100%; min-width: 768px; max-width: 1279px;
     margin: auto; box-sizing: border-box;
   }
-
   h1 {
+    width: 23.4375%; min-width: 180px;
+    height: auto;
     float: left;
-    width: 23.4375%; min-width: 180px; height: auto;
   }
-  h1 > button > img {
+  h1 button img {
     width: 23.4375%; min-width: 180px;
     height: 20px;
     margin-bottom: 1.111px;
   }
-
   .unb {display: none;}
   .gnb {display: none;}
 
-  #headBox .header_m {padding-left: 13.375%;}
+  #headBox .header_m {
+    padding-left: 13.375%;
+  }
   .header_m {
-    float: right;
-    width: 19.531%; min-width: 150px; height: 22px;
+    width: 19.531%; min-width: 150px;
+    height: 22px;
     margin: auto;
     margin-top: 6px;
+    float: right;
     box-sizing: border-box;
   }
 
-  #unbInner {width: 7.8125%; min-width: 60px; padding: 0;}
-  
-  #check_box {
-    display: none;
+  #unbInner {
+    width: 7.8125%; min-width: 60px;
+    padding: 0;
   }
+  
+  #check_box {display: none;}
   #check_box + label {
-    position: relative;
-    display: block;
     width: 5.21%; min-width: 40px;
     height: 20px;
+    position: relative;
+    display: block;
     cursor: pointer;
     z-index: 100;
   }
   #check_box + label > span {
-    position: absolute;
-    display: block;
     width: 100%;
     height: 3px;
+    position: absolute;
+    display: block;
     background: #000;
     border-radius: 5px;
     transition: all 300ms;
@@ -87,23 +90,21 @@
     left: 95px;
   }
   #slide_menu {
-    position: fixed;
     width: 100%; min-width: 281px;
     height: 100%;
+    padding: 60px 16px 20px 16px;
+    position: fixed;
     background-color: rgba(36, 48, 90, 86%);
     text-transform: uppercase;
     left: 100%;
     transition: all 300ms;
     z-index: 1;
     top: 0px;
-    padding: 60px 16px 20px 16px;
     box-sizing: border-box;
     overflow: auto;
   }
   
-  input[id*="slide_btn"] {
-    display: none;
-  }
+  input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
     display: block;
@@ -131,7 +132,6 @@
   input[id*="slide_btn"]:checked + label + div {
     max-height: inherit;
   }
-
   .search_part {
     height: auto;
   }
@@ -140,10 +140,11 @@
     height: auto;
   }
   .search_part fieldset {
-    display: flex;
     width: auto;
     height: auto;
+    display: flex;
   }
+
   #searchInput {
     width: 32.552%; min-width: 250px;
     height: 40px;
@@ -156,37 +157,46 @@
     width: 13.021%; min-width: 100px;
     border-radius: 5px;
     border: 1px solid #fff;
-    color: #fff;
     text-transform: capitalize;
+    color: #fff;
   }
-
-  .sns_part ul {width: 100%; height: auto;}
+  .sns_part ul {
+    width: 100%;
+    height: auto;
+  }
   .sns_part li {
-    width: 96%; height: auto;
+    width: 96%;
+    height: auto;
     margin: 16px 5px 14px 5px;
     color: #ddd;
   }
   .sns_part button img {
-    width: 30px; height: 30px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     color: #aaa;
   }
-
-  .mainBox {width: auto; height: auto; top: 0; left: 0; right: 0; padding-top: 70px;}
+  .mainBox {
+    width: auto;
+    height: auto;
+    padding-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
   
   /* #viewBox ========================= */
   .swiper-slide img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
     cursor: pointer;
   }
-  .container{
-    position: relative;
+  .container {
+    width: 100%; max-width: 1080px;
     margin: auto;
-    width: 100%;
-    max-width: 1080px;
     padding: 30px 20px;
+    position: relative;
   }
   .swiper-slide {
     width: 100%;
@@ -194,22 +204,19 @@
     background-color: #eee;
   }
   .swiper-pagination-bullet {
-    /* display: none; */
     width: 40px;
     height: 3px;
     border-radius: 0;
     background-color: #fff;
   }
   .swiper-pagination-bullet-active {
-    background-color: #fff;
     width: 80px;
+    background-color: #fff;
   }
-
   .swiper-button-next.swiper-button-disabled, 
   .swiper-button-prev.swiper-button-disabled {
     opacity: 0;
   }
-
   .swiper-button-next, .swiper-button-prev {
     width: 40px;
     height: 40px;
@@ -226,50 +233,51 @@
   }
   .swiper-button-next::after, .swiper-rtlswiper-button-next::after, .swiper-button-prev::after, 
   .swiper-rtlswiper-button-prev::after {display: none;}
+  
   .swiper-button-prev:hover, 
   .swiper-button-next:hover {
     background-color: #004fff;
     box-shadow: 0 4px 12px rgba(0, 79, 255, 0.4);
   }
   .swiper-button-prev {
-    background-image: url(../../img/arrow_left.png);
     left: 20px;
+    background-image: url(../../img/arrow_left.png);
   }
   .swiper-button-prev:hover {
     background-image: url(../../img/left.png);
   }
   .swiper-button-next {
-    background-image: url(../../img/arrow_right.png);
     right: 20px;
+    background-image: url(../../img/arrow_right.png);
   }
   .swiper-button-next:hover {
     background-image: url(../../img/right.png);
   }
-
 
   /* #storefindBox ========================= */
   #storefactory {display: none;}
   #dreamfactoryBox_full {display: none;}
   #storefindBox {display: none;}
 
-  /* shortcutBox ========================= */
+  /* #shortcutBox ========================= */
   #shortcutBox {
-    width: 100%; min-width: 768px;
-    max-width: 1279px;
+    width: 100%; min-width: 768px; max-width: 1279px;
     height: 434px;
     box-sizing: border-box;
   }
   .shortcut {
     width: 100%; min-width: 768px;
     height: 434px;
-    margin: auto; box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
   }
   .sc_title {
-    width: 100%; min-width: 768px; height: 50px;
-    text-align: center;
+    width: 100%; min-width: 768px;
+    height: 50px;
     padding: 10px;
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
     text-transform: uppercase;
     color: #243c84;
   }
@@ -278,10 +286,9 @@
     height: 380px;
     padding: 2px 14px 14px;
   }
-
   .drinkInner {
-    float: left;
     width: 49.875%; height: 180px;
+    float: left;
     background-color: #ddd;
     background-image: url(../../img/drink.svg);
     background-size: 100%;
@@ -290,25 +297,24 @@
   .drink_TX span {
     width: 86%; min-width: 350px;
     padding: 4.35501355% 5.7100271%;
+    float: left;
     font-size: 22px;
     font-weight: 400;
-    float: left;
     text-transform: uppercase;
   }
   .left_more {
     width: 14.323%; min-width: 110px;
-    padding: 1.4084507%;
     margin: 5px 5%;
+    padding: 1.4084507%;
+    float: left;
     font-size: 16px;
     color: #000;
-    float: left;
     border-radius: 4px;
     outline: solid 1px;
   }
-
   .bakeryInner {
-    float: left;
     width: 49.875%; height: 180px;
+    float: left;
     background-color: #aaa;
     background-image: url(../../img/bakery.svg);
     background-size: 100%;
@@ -325,18 +331,17 @@
   }
   .right_more {
     width: 14.323%; min-width: 110px;
-    padding: 1.4084507%;
     margin: 5px 5%;
+    padding: 1.4084507%;
     font-size: 16px;
     color: #000;
     float: right;
     border-radius: 4px;
     outline: solid 1px;
   }
-
   .mdInner {
-    float: left;
     width: 49.875%; height: 180px;
+    float: left;
     background-color: #aaa;
     background-image: url(../../img/md.svg);
     background-size: 100%;
@@ -345,15 +350,14 @@
   .md_TX span {
     width: 86%; min-width: 350px;
     padding: 4.35501355% 5.7100271%;
+    float: left;
     font-size: 22px;
     font-weight: 400;
-    float: left;
     text-transform: uppercase;
   }
-
   .bistroInner {
-    float: left;
     width: 49.875%; height: 180px;
+    float: left;
     background-image: url(../../img/bistro.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -361,9 +365,9 @@
   .bst_TX span {
     width: 86%; min-width: 350px;
     padding: 4.35501355% 5.7100271%;
+    float: right;
     font-size: 22px;
     font-weight: 400;
-    float: right;
     text-align: right;
     text-transform: uppercase;
   }
@@ -371,8 +375,7 @@
   /* #storyBox ========================= */
   #storyBox {display: none;}
 
-
-  /* #membershipBox ========================= */
+  /* #dreamfactoryBox ========================= */
   #dreamfactoryBox {
     width: 100%; min-width: 768px;
     height: auto;
@@ -380,12 +383,14 @@
     background-color: #243c84;
   }
   .dreamfactory {
-    width: auto; height: auto;
+    width: auto;
+    height: auto;
     padding-top: 4.55729167%;
     padding-left: 7.03125%;
   }
   .dreamTxt {
-    width: 55.7292%; min-width: 428px; height: auto;
+    width: 55.7292%; min-width: 428px;
+    height: auto;
   }
   .dreamfactory ul li {
     width: 37.7604%; min-width: 290px;
@@ -396,22 +401,23 @@
     color: #ffffff;
   }
   .dreamImg {
-    width: 50%; min-width: 384px; height: 124px;
-    float: right;
+    width: 50%; min-width: 384px;
+    height: 124px;
     margin-top: 32px;
+    float: right;
   }
   .dreamfactory_btn {
-    float: left;
     width: 34.635%; min-width: 274px;
     height: auto;
     margin-top: 25px;
+    float: left;
   }
-  .dream_fc{
+  .dream_fc {
+    width: 15.625%; min-width: 120px; 
+    height: 34px;
     float: right;
     font-size: 13px;
     color: #000;
-    width: 15.625%; min-width: 120px; 
-    height: 34px;
     line-height: 34px;
     text-transform: uppercase;
     border: 1px solid #151515;
@@ -420,14 +426,14 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  .dream_lc{
-    float: right;
-    font-size: 13px;
-    color: #000;
+  .dream_lc {
     width: 15.625%; min-width: 120px; 
     height: 34px;
-    line-height: 34px;
+    float: right;
+    font-size: 13px;
     text-transform: uppercase;
+    color: #000;
+    line-height: 34px;
     border: 1px solid #151515;
     background-color: #dddddd;
     opacity: 0.6;
@@ -437,18 +443,20 @@
 
   /* #companyaboutBox ========================= */
   #companyabBox {
-    float: left;
     width: 100%; min-width: 768px;
     height: auto;
+    float: left;
   }
   .franchise_inner {
-    float: left;
-    width: 43.75%; min-width: 336px; height: 264px;
+    width: 43.75%; min-width: 336px;
+    height: 264px;
     margin: 3.72093023% 1.72093023% 3.72093023% 4.36046512%;
+    float: left;
   }
   .franchise {
+    width: 100%; min-width: 336px;
+    height: 264px;
     float: left;
-    width: 100%; min-width: 336px; height: 264px;
     background-image: url(../../img/franchise.png);
     background-repeat: no-repeat;
     background-size: 100% 264px;
@@ -456,26 +464,27 @@
     color: #ffffff;
   }
   .franchise_TX {
-    float: right;
     width: 75%; min-width: 130px;
-    font-size: 18px;
-    text-align: right;
-    font-weight: 400;
     margin-right: 25%;
     padding-top: 30px;
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
   }
   .franchise_btn {
     width: 17.1875%; min-width: 132px;
     height: 84px;
-    float: right;
     margin-top: 30px;
     margin-right: 10px;
+    float: right;
   }
-  .franchise_gd{
+  .franchise_gd {
+    width: 15.885%; min-width: 122px;
+    height: 36px;
     float: right;
     font-size: 15px;
     color: #000;
-    width: 15.885%; min-width: 122px; height: 36px;
     line-height: 36px;
     border: 1px solid #151515;
     background-color: #dddddd;
@@ -483,11 +492,12 @@
     cursor: pointer;
     border-radius: 4px;
   }
-  .franchise_pt{
+  .franchise_pt {
+    width: 15.885%; min-width: 122px;
+    height: 36px;
     float: right;
     font-size: 15px;
     color: #000;
-    width: 15.885%; min-width: 122px; height: 36px;
     line-height: 36px;
     border: 1px solid #151515;
     background-color: #dddddd;
@@ -495,18 +505,18 @@
     cursor: pointer;
     border-radius: 4px;
   }
-
   .sns_inner {display: none;}
-
   .ediyastory_inner {
-    float: left;
-    width: 43.75%; min-width: 336px; height: 264px;
+    width: 43.75%; min-width: 336px;
+    height: 264px;
     margin: 3.72093023% 4.36046512% 3.72093023% 1.72093023%;
+    float: left;
     background-color: #ddd;
   }
   .ediyastory {
+    width: 100%; min-width: 336px;
+    height: 264px;
     float: left;
-    width: 100%; min-width: 336px; height: 264px;
     background-image: url(../../img/ediyastory.png);
     background-repeat: no-repeat;
     background-size: 100% 264px;
@@ -514,26 +524,27 @@
     color: #ffffff;
   }
   .ediyastory_TX {
-    float: right;
     width: 75%; min-width: 130px;
-    font-size: 18px;
-    text-align: right;
-    font-weight: 400;
     margin-right: 25%;
     padding-top: 30px;
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
   }
   .ediyastory_btn {
     width: 17.1875%; min-width: 132px;
     height: 84px;
-    float: right;
     margin-top: 30px;
     margin-right: 10px;
+    float: right;
   }
   .ediyastory_more {
+    width: 15.885%; min-width: 122px;
+    height: 36px;
     float: right;
     font-size: 15px;
     color: #000;
-    width: 15.885%; min-width: 122px; height: 36px;
     line-height: 36px;
     border: 1px solid #151515;
     background-color: #dddddd;
@@ -544,21 +555,21 @@
 
   /* #footBox ========================= */
   #footBox {
-    float: left;
     width: 100%; min-width: 768px;
     height: auto;
+    float: left;
     border-top: 3px solid #243c84;
   }
   .foot_inner {
-    width: 91.1458%; min-width: 700px; height: auto;
+    width: 91.1458%; min-width: 700px;
+    height: auto;
     margin: 20px auto;
     position: relative;
   }
-  
   .foot_main {
-    color: #000;
     font-weight: 300;
     text-align: center;
+    color: #000;
     position: relative;
   }
   .foot_main h2 {
@@ -567,7 +578,8 @@
     margin-bottom: 8px;
   }
   .foot_main h2 button img {
-    width: 19.5313%; min-width: 150px; height: 20px;
+    width: 19.5313%; min-width: 150px;
+    height: 20px;
     margin: auto;
     display: block;
   }
@@ -576,31 +588,31 @@
     height: auto;
   }
   .foot_main .company_info li {
-    font-size: 15px;
     display: inline-block;
+    font-size: 15px;
   }
   .foot_main .company_info li::after {
     padding: 0 14px;
     content: 'l';
   }
   .foot_main p {
-    font-size: 13px;
     margin-top: 16px;
+    font-size: 13px;
     font-weight: 400;
   }
   .foot_main .footsubmenu {
     width: 26.0416%; min-width: 200px;
-    display: flex;
-    position: absolute;
     top: 0px;
     right: 0;
+    display: flex;
+    position: absolute;
   }
-
   .language_part {
     width: 50%;
   }
   .language_btn {
-    width: 100%; height: 42px;
+    width: 100%;
+    height: 42px;
     margin-top: 2px;
   }
   .language_btn img {
@@ -608,10 +620,10 @@
     height: 30px;
   }
   .language_part ul {
-    display: none;
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px;
+    display: none;
     background-color: #fff;
     border: 1px solid #262626;
     position: relative;
@@ -619,11 +631,13 @@
     text-align: center;
   }
   .language_part ul.on {
+    width: 100%;
+    height: auto;
     display: block;
-    width: 100%; height: auto;
   }
   .language_part li {
-    width: auto; height: 30px;
+    width: auto;
+    height: 30px;
     line-height: 20px;
   }
   .language_part li button { 
@@ -631,23 +645,24 @@
     text-transform: uppercase;
     color: #000;
   }
-
   .brandsite_part {
     width: 50%;
   }
   .brandsite_btn {
-    width: 100%; height: 42px;
+    width: 100%;
+    height: 42px;
     line-height: 42px;
     background-color: #243c84;
     border-radius: 5px;
-    color: #fff;
     font-size: 14px;
+    color: #fff;
   }
   .brandsite_part ul {
-    display: none;
-    width: 100%; height: auto;
+    width: 100%;
+    height: auto;
     margin-top: 10px;
     padding: 5px 8px;
+    display: none;
     background-color: #fff;
     border: 1px solid #262626;
     position: relative;
@@ -655,11 +670,13 @@
     text-align: center;
   }
   .brandsite_part ul.on {
+    width: 100%;
+    height: auto;
     display: block;
-    width: 100%; height: auto;
   }
   .brandsite_part li {
-    width: auto; height: 30px;
+    width: auto;
+    height: 30px;
     line-height: 20px;
   }
   .brandsite_part li button { 
@@ -667,7 +684,6 @@
     text-transform: uppercase;
     color: #000;
   }
-
   .to_top {
     display: none;
     position: fixed;
@@ -679,9 +695,9 @@
     display: block;
   }
   .to_top span {
-    display: inline-block;
     width: 40px;
     height: 40px;
+    display: inline-block;
     cursor: pointer;
     background: url(../../img/to_top2color.svg)no-repeat center;
     background-size: 40px;
