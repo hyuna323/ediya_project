@@ -20,6 +20,8 @@
     margin: auto;
     box-sizing: border-box;
   }
+
+  /* logo part */
   h1 {
     width: 33.75%; min-width: 108px; 
     height: auto;
@@ -31,6 +33,8 @@
   }
   .unb {display: none;}
   .gnb {display: none;}
+
+  /* moblie slide part --------------------- */
   #headBox .header_m {
     padding-left: 34.375%;
   }
@@ -46,6 +50,8 @@
     width: 13.75%; min-width: 44px;
     padding: 0;
   }
+
+  /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
     width: 11.875%; min-width: 38px;
@@ -88,6 +94,8 @@
   #check_box:checked + label + #slide_menu {
     left: 40px;
   }
+
+  /* #slide_menu ------------------------------ */
   #slide_menu {
     width: 100%; min-width: 281px;
     height: 100%;
@@ -102,7 +110,6 @@
     box-sizing: border-box;
     overflow: auto;
   }
-  
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
@@ -130,6 +137,8 @@
   input[id*="slide_btn"]:checked + label + div {
     max-height: inherit;
   }
+
+  /* search */
   .search_part {
     height: auto;
   }
@@ -157,6 +166,8 @@
     color: #fff;
     text-transform: capitalize;
   }
+
+  /* sns */
   .sns_part ul {
     width: 100%;
     height: auto;
@@ -173,6 +184,7 @@
     margin-right: 5px;
   }
 
+  /* .mainBox ========================= */
   .mainBox {
     width: auto;
     height: auto;
@@ -181,8 +193,9 @@
     right: 0;
     padding-top: 60px;
   }
-      
+
   /* #viewBox ========================= */
+  /* swiper */
   .swiper {
     width: 100%;
     height: auto;
@@ -193,6 +206,8 @@
     display: block;
     cursor: pointer;
   }
+  
+  /* viewBpx main */
   .container {
     width: 100%; max-width: 1080px;
     margin: auto;
@@ -289,6 +304,8 @@
     height: 197px;
     padding: 0.625% 3.125% 3.125% 3.125%;
   }
+
+  /* drink --------------------------------- */
   .drinkInner {
     width: 49.875%;
     height: 90px;
@@ -307,16 +324,7 @@
     color: #000;
     text-transform: uppercase;
   }
-  .left_more {
-    width: 18.75%; min-width: 60px;
-    padding: 1.07692308%;
-    margin: 5px 5%;
-    font-size: 12px;
-    color: #000;
-    float: left;
-    border-radius: 3px;
-    outline: solid 1px;
-  }
+  /* bakery --------------------------------- */
   .bakeryInner {
     float: left;
     width: 49.875%; 
@@ -335,16 +343,7 @@
     text-align: right;
     text-transform: uppercase;
   }
-  .right_more {
-    width: 18.75%; min-width: 60px;
-    padding: 1.07692308%;
-    margin: 5px 5%;
-    font-size: 12px;
-    color: #000;
-    float: right;
-    border-radius: 3px;
-    outline: solid 1px;
-  }
+  /* md ------------------------------------- */
   .mdInner {
     width: 49.875%; 
     height: 90px;
@@ -362,6 +361,7 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  /* bistro -------------------------------------- */
   .bistroInner {
     width: 49.875%;
     height: 90px;
@@ -379,9 +379,31 @@
     text-align: right;
     text-transform: uppercase;
   }
-
+  /* more button ---------------------------- */
+  .left_more {
+    width: 18.75%; min-width: 60px;
+    padding: 1.07692308%;
+    margin: 5px 5%;
+    font-size: 12px;
+    color: #000;
+    float: left;
+    border-radius: 3px;
+    outline: solid 1px;
+  }
+  .right_more {
+    width: 18.75%; min-width: 60px;
+    padding: 1.07692308%;
+    margin: 5px 5%;
+    font-size: 12px;
+    color: #000;
+    float: right;
+    border-radius: 3px;
+    outline: solid 1px;
+  }
+  
+  /* #storyBox ========================= */
   #storyBox {display: none;}
-
+  
   /* #dreamfactoryBox ========================= */
   #dreamfactoryBox {
     width: 100%; min-width: 320px;
@@ -419,6 +441,8 @@
     height: auto;
     float: left;
   }
+
+  /* dreamfactory button */
   .dream_fc {
     width: 21.25%; min-width: 68px;
     height: 18px;
@@ -454,6 +478,8 @@
     height: auto;
     float: left;
   }
+
+  /* franchise part */
   .franchise_inner {
     width: 40.625%; min-width: 130px; 
     height: 114px;
@@ -479,6 +505,7 @@
     font-weight: 400;
     text-align: right;
   }
+  /* franchise button */
   .franchise_btn {
     width: 17.1875%; min-width: 55px;
     height: 12px;
@@ -516,6 +543,8 @@
     cursor: pointer;
   }
   .sns_inner {display: none;}
+
+  /* brand story part */
   .ediyastory_inner {
     width: 40.625%; min-width: 130px; 
     height: 114px;
@@ -605,6 +634,8 @@
     font-weight: 400;
   }
   .foot_main .footsubmenu {display: none;}
+
+  /* top button */
   .to_top {
     display: none;
     position: fixed;

@@ -21,6 +21,8 @@
     box-sizing: border-box;
     padding: 12px 40px;
   }
+  
+  /* logo part */
   h1 {
     width: 100%; min-width: 890px; 
     height: auto;
@@ -31,6 +33,8 @@
     height: 20px;
     margin-top: 14px;
   }
+  
+  /* user navigation */
   .unb {
     width: auto; min-width: 470px; 
     height: 46px;
@@ -39,6 +43,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
   .about_part {
     width: 6.25%; min-width: 90px;
     height: 50px;
@@ -63,6 +68,7 @@
     height: 100%;
     text-decoration: none;
   }
+  /* search */
   .search_part {
     width: auto;
     height: auto;
@@ -101,7 +107,7 @@
     text-transform: capitalize;
   }
 
-/* ---------------------------------- */
+  /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1440px;
     height: 50%;
@@ -109,6 +115,7 @@
     margin: auto; 
     box-sizing: border-box;
   }
+  /* global navigaition */
   .gnb {
     width: 71.667%; min-width: 1176px; 
     height: 100%;
@@ -116,6 +123,7 @@
     display: flex;
     justify-content: space-between;
   }
+  /* global navigaition low slide menu */
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -170,12 +178,19 @@
   }
 
   /* #viewBox ========================= */
+  /* swiper */
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
   .swiper-slide img {
     width: 100%;
     height: auto;
     display: block;
     cursor: pointer;
   }
+
+  /* viewBox main */
   .container {
     width: 100%; max-width: 1080px;
     margin: auto;
@@ -242,13 +257,17 @@
     background-size: 60%;
   }
   
-  /* #storefindBox ========================= */
-  .content_box_wrap {
+  /* #content_box_wrap ========================= */
+  #content_box_wrap {
     width: 100%; min-width: 1440px;
     height: auto;
   }
   .storefactory {display: none;}
+
+  /* #dreamfactoryBox_full ================= */
   #dreamfactoryBox_full {display: none;}
+  
+  /* #storefindBox ========================= */
   #storefindBox {display: none;}
   .noticeBox_full {display: none;}
   
@@ -261,6 +280,7 @@
     height: 518px;
     float: left;
   }
+  
   .menu_inner {
     width: 40.625%; min-width: 585px;
     height: 422px;
@@ -292,6 +312,7 @@
     margin-top: 50px;
     margin-right: 80px;
   }
+  /* food */
   .menu_dk {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -303,6 +324,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* food */
   .menu_fd {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -314,6 +336,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* md */
   .menu_md {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -332,6 +355,7 @@
     text-align: right;
     color: white;
   }
+  /* brandStory -------------------------------- */
   .brandStory_inner {
     width: 40.625%; min-width: 585px;
     height: 422px;
@@ -362,6 +386,7 @@
     margin-right: 80px;
     float: right;
   }
+  /* ediya about */
   .brandStory_ey {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -373,6 +398,7 @@
     font-size: 18px;
     cursor: pointer;
   }
+  /* ceo 인사말 */
   .brandStory_ci {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -384,6 +410,7 @@
     font-size: 18px;
     cursor: pointer;
   }
+  /* 연혁 */
   .brandStory_ht {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -395,6 +422,7 @@
     font-size: 18px;
     cursor: pointer;
   }
+  /* 오시는 길 */
   .brandStory_m {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -406,6 +434,7 @@
     font-size: 18px;
     cursor: pointer;
   }
+  /* 수상내역 */
   .brandStory_aw {
     width: 26.667%; min-width: 152px;
     height: 50px;
@@ -446,6 +475,8 @@
     margin-top: 10px;
     float: right;
   }
+  
+  /* dreamfactory button */
   .dreamfactory_btn {
     width: 31.1856%; min-width: 449px;
     height: 70px;
@@ -479,12 +510,14 @@
     cursor: pointer;
   }
   
-  /* #companyaboutBox ========================= */
+  /* #companyabBox ========================= */
   #companyabBox {
     width: 100%; min-width: 1440px;
     height: auto;
     float: left;
   }
+  
+  /* franchise part */
   .franchise_inner {
     width: 40.625%; min-width: 585px;
     height: 416px;
@@ -508,6 +541,8 @@
     font-weight: 500;
     text-align: center;
   }
+  
+  /* franchise button */
   .franchise_btn {
     width: 31.1856%; min-width: 218px;
     height: 120px;
@@ -543,6 +578,7 @@
     text-transform: uppercase;
     cursor: pointer;
   }
+  /* sns */
   .sns_inner {
     width: 40.625%; min-width: 585px;
     height: 416px;
@@ -555,6 +591,7 @@
     display: flex;
     flex-wrap: wrap;
   }
+  /* sns img */
   .snslatte {
     width: 100%; min-width: 222px;
     height: 204px;
@@ -571,6 +608,7 @@
     width: 100%; min-width: 222px;
     height: 204px;
   }
+  /* sns logo */
   .snsmark {
     width: 32.4786%; min-width: 190px;
     height: 416px;
@@ -665,6 +703,8 @@
     display: flex;
     position: absolute;
   }
+  
+  /* language --------------- */
   .language_part {
     width: 50%;
   }
@@ -700,6 +740,8 @@
   .language_part li button { 
     text-transform: uppercase; 
   }
+  
+  /* brandsite -------------- */
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
@@ -738,6 +780,8 @@
     height: auto;
     display: block;
   }
+  
+  /* top button */
   .to_top {
     right: 4%;
     bottom: 15px;

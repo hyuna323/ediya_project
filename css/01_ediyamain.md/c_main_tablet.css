@@ -18,6 +18,8 @@
     width: 100%; min-width: 768px; max-width: 1279px;
     margin: auto; box-sizing: border-box;
   }
+
+  /* logo part */
   h1 {
     width: 23.4375%; min-width: 180px;
     height: auto;
@@ -30,7 +32,8 @@
   }
   .unb {display: none;}
   .gnb {display: none;}
-
+  
+  /* moblie slide part --------------------- */
   #headBox .header_m {
     padding-left: 13.375%;
   }
@@ -42,12 +45,12 @@
     float: right;
     box-sizing: border-box;
   }
-
   #unbInner {
     width: 7.8125%; min-width: 60px;
     padding: 0;
   }
   
+  /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
     width: 5.21%; min-width: 40px;
@@ -89,6 +92,8 @@
   #check_box:checked + label + #slide_menu {
     left: 95px;
   }
+  
+  /* #slide_menu ------------------------------ */
   #slide_menu {
     width: 100%; min-width: 281px;
     height: 100%;
@@ -103,7 +108,6 @@
     box-sizing: border-box;
     overflow: auto;
   }
-  
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
@@ -132,6 +136,8 @@
   input[id*="slide_btn"]:checked + label + div {
     max-height: inherit;
   }
+  
+  /* search */
   .search_part {
     height: auto;
   }
@@ -144,7 +150,6 @@
     height: auto;
     display: flex;
   }
-
   #searchInput {
     width: 32.552%; min-width: 250px;
     height: 40px;
@@ -160,6 +165,8 @@
     text-transform: capitalize;
     color: #fff;
   }
+  
+  /* sns */
   .sns_part ul {
     width: 100%;
     height: auto;
@@ -176,6 +183,8 @@
     margin-right: 10px;
     color: #aaa;
   }
+
+  /* .mainBox ========================= */
   .mainBox {
     width: auto;
     height: auto;
@@ -186,12 +195,19 @@
   }
   
   /* #viewBox ========================= */
+  /* swiper */
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
   .swiper-slide img {
     width: 100%;
     height: auto;
     display: block;
     cursor: pointer;
   }
+
+  /* viewBpx main */
   .container {
     width: 100%; max-width: 1080px;
     margin: auto;
@@ -259,7 +275,11 @@
 
   /* #storefindBox ========================= */
   #storefactory {display: none;}
+  
+  /* #dreamfactoryBox_full ================= */
   #dreamfactoryBox_full {display: none;}
+  
+  /* #storefindBox ========================= */
   #storefindBox {display: none;}
 
   /* #shortcutBox ========================= */
@@ -289,6 +309,8 @@
     height: 380px;
     padding: 2px 14px 14px;
   }
+  
+  /* drink --------------------------------- */
   .drinkInner {
     width: 49.875%; height: 180px;
     float: left;
@@ -305,16 +327,7 @@
     font-weight: 400;
     text-transform: uppercase;
   }
-  .left_more {
-    width: 14.323%; min-width: 110px;
-    margin: 5px 5%;
-    padding: 1.4084507%;
-    float: left;
-    font-size: 16px;
-    color: #000;
-    border-radius: 4px;
-    outline: solid 1px;
-  }
+  /* bakery --------------------------------- */
   .bakeryInner {
     width: 49.875%; height: 180px;
     float: left;
@@ -332,16 +345,7 @@
     text-align: right;
     text-transform: uppercase;
   }
-  .right_more {
-    width: 14.323%; min-width: 110px;
-    margin: 5px 5%;
-    padding: 1.4084507%;
-    font-size: 16px;
-    color: #000;
-    float: right;
-    border-radius: 4px;
-    outline: solid 1px;
-  }
+  /* md ------------------------------------- */
   .mdInner {
     width: 49.875%; height: 180px;
     float: left;
@@ -358,6 +362,7 @@
     font-weight: 400;
     text-transform: uppercase;
   }
+  /* bistro -------------------------------------- */
   .bistroInner {
     width: 49.875%; height: 180px;
     float: left;
@@ -374,10 +379,31 @@
     text-align: right;
     text-transform: uppercase;
   }
-
+  /* more button ---------------------------- */
+  .left_more {
+    width: 14.323%; min-width: 110px;
+    margin: 5px 5%;
+    padding: 1.4084507%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    border-radius: 4px;
+    outline: solid 1px;
+  }
+  .right_more {
+    width: 14.323%; min-width: 110px;
+    margin: 5px 5%;
+    padding: 1.4084507%;
+    font-size: 16px;
+    color: #000;
+    float: right;
+    border-radius: 4px;
+    outline: solid 1px;
+  }
+  
   /* #storyBox ========================= */
   #storyBox {display: none;}
-
+  
   /* #dreamfactoryBox ========================= */
   #dreamfactoryBox {
     width: 100%; min-width: 768px;
@@ -415,6 +441,8 @@
     margin-top: 25px;
     float: left;
   }
+  
+  /* dreamfactory button */
   .dream_fc {
     width: 15.625%; min-width: 120px; 
     height: 34px;
@@ -450,6 +478,8 @@
     height: auto;
     float: left;
   }
+  
+  /* franchise part */
   .franchise_inner {
     width: 43.75%; min-width: 336px;
     height: 264px;
@@ -475,6 +505,7 @@
     font-weight: 400;
     text-align: right;
   }
+  /* franchise button */
   .franchise_btn {
     width: 17.1875%; min-width: 132px;
     height: 84px;
@@ -509,6 +540,8 @@
     border-radius: 4px;
   }
   .sns_inner {display: none;}
+  
+  /* brand story part */
   .ediyastory_inner {
     width: 43.75%; min-width: 336px;
     height: 264px;
@@ -610,6 +643,8 @@
     display: flex;
     position: absolute;
   }
+
+  /* language --------------- */
   .language_part {
     width: 50%;
   }
@@ -648,6 +683,8 @@
     text-transform: uppercase;
     color: #000;
   }
+
+  /* brandsite -------------- */
   .brandsite_part {
     width: 50%;
   }
@@ -687,6 +724,8 @@
     text-transform: uppercase;
     color: #000;
   }
+
+  /* top button */
   .to_top {
     display: none;
     position: fixed;

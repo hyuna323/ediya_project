@@ -19,6 +19,8 @@
     margin: auto; box-sizing: border-box;
     padding: 16px 40px;
   }
+  
+  /* logo part */
   h1 {
     width: 100%; min-width: 1340px; 
     height: auto;
@@ -29,6 +31,8 @@
     height: 30px;
     margin-top: 14px;
   }
+  
+  /* user navigation */
   .unb {
     width: 26.042%; min-width: 500px; 
     height: auto;
@@ -37,6 +41,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
   .about_part {
     width: 5.208%; min-width: 100px;
     height: 54px;
@@ -61,6 +66,7 @@
     height: 100%;
     text-decoration: none;
   }
+  /* search */
   .search_part {
     float: right;
     width: auto;
@@ -99,7 +105,7 @@
     text-transform: capitalize;
   }
 
-  /* ---------------------------------- */
+  /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1920px;
     height: 50%;
@@ -107,6 +113,7 @@
     margin: auto;
     box-sizing: border-box;
   }
+  /* global navigaition */
   .gnb {
     display: flex;
     width: 62.7083%; min-width: 1204px; 
@@ -114,6 +121,7 @@
     height: 100%;
     margin: auto;
   }
+  /* global navigaition low slide menu */
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -171,12 +179,19 @@
   }
 
   /* #viewBox ========================= */
+  /* swiper */
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
   .swiper-slide img {
     display: block;
     width: 100%;
     height: auto;
     cursor: pointer;
   }
+  
+  /* viewBox main */
   .container {
     position: relative;
     margin: auto;
@@ -242,7 +257,7 @@
     background-size: 60%;
   }
   
-  /* #storefindBox ========================= */
+  /* #content_box_wrap ========================= */
   #content_box_wrap {
     width: 100%; min-width: 1920px; 
     height: auto;
@@ -250,6 +265,8 @@
   .storefactory {
     display: flex;
   }
+
+  /* #dreamfactoryBox_full ================= */
   #dreamfactoryBox_full {
     float: left;
     width: 64.0625%; min-width: 1230px;
@@ -286,6 +303,8 @@
     height: auto;
     float: right;
   }
+  
+  /* dreamfactory button */
   .dreamfactory_btn {
     width: 23.3854%; min-width: 449px;
     height: 70px;
@@ -318,7 +337,8 @@
     border-radius: 6px;
     cursor: pointer;
   }
-  
+
+  /* #storefindBox ========================= */
   #storefindBox {
     display: flex;
     flex-wrap: wrap;
@@ -332,6 +352,7 @@
     height: auto;
     margin-top: 4.476%;
   }
+  /* .finder */
   .finder {
     width: 100%; 
     min-width: 596px; 
@@ -372,6 +393,7 @@
     right: 4%;
     margin: 0;
   }
+  /* .notice */
   .noticeBox_full {
     width: 100%;
     height: auto;
@@ -437,7 +459,6 @@
     width: 100%; min-width: 1920px; 
     height: 600px;
   }
-
   .menu_inner {
     float: left;
     width: 40%; min-width: 768px; 
@@ -467,6 +488,7 @@
     margin-top: 50px;
     margin-right: 100px;
   }
+  /* drink */
   .menu_dk {
     width: 150px;
     height: 50px;
@@ -478,6 +500,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* food */
   .menu_fd{
     width: 150px;
     height: 50px;
@@ -489,6 +512,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* md */
   .menu_md {
     width: 150px;
     height: 50px;
@@ -507,6 +531,7 @@
     font-weight: 400;
     color: white;
   }
+  /* brandStory -------------------------------- */
   .brandStory_inner {
     float: left;
     width: 40%; min-width: 768px; height: 477px;
@@ -534,6 +559,7 @@
     margin-top: 40px;
     margin-right: 80px;
   }
+  /* ediya about */
   .brandStory_ey {
     width: 150px;
     height: 50px;
@@ -545,6 +571,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* ceo 인사말 */
   .brandStory_ci {
     width: 150px;
     height: 50px;
@@ -556,6 +583,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* 연혁 */
   .brandStory_ht {
     width: 150px;
     height: 50px;
@@ -567,6 +595,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* 오시는 길 */
   .brandStory_m {
     width: 19.5313%; min-width: 150px;
     height: 50px;
@@ -578,6 +607,7 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* 수상내역 */
   .brandStory_aw {
     width: 19.5313%; min-width: 150px;
     height: 50px;
@@ -598,6 +628,8 @@
     width: 100%; min-width: 1920px;
     height: auto;
   }
+  
+  /* franchise part */
   .franchise_inner {
     float: left;
     width: 40%; min-width: 768px; height: 477px;
@@ -619,6 +651,8 @@
     font-weight: 500;
     padding-top: 30px;
   }
+  
+  /* franchise button */
   .franchise_btn {
     width: 10.9375%; min-width: 210px;
     height: 121px;
@@ -653,33 +687,42 @@
     border-radius: 6px;
     cursor: pointer;
   }
+  /* sns */
   .sns_inner {
-    display: flex;
     width: 40%; min-width: 768px; 
     height: 477px;
+    display: flex;
     margin: 2.969% 7.2% 3.331% 2.731%;
   }
   .sns {
+    width: 40%; min-width: 550px;
+    height: 477px;
     display: flex;
     flex-wrap: wrap;
-    width: 40%; min-width: 550px; height: 477px;
   }
+  /* sns img */
   .snslatte {
-    width: 100%; min-width: 274px; height: 220px;
+    width: 100%; min-width: 274px;
+    height: 220px;
   }
   .snsthree {
-    width: 100%; min-width: 274px; height: 220px;
+    width: 100%; min-width: 274px;
+    height: 220px;
   }
   .snscoffee {
-    width: 100%; min-width: 274px; height: 220px;
+    width: 100%; min-width: 274px;
+    height: 220px;
   }
   .snssoftkit {
-    width: 100%; min-width: 274px; height: 220px;
+    width: 100%; min-width: 274px;
+    height: 220px;
   }
+  /* sns logo */
   .snsmark {
+    width: 29.1667%; min-width: 224px;
+    height: 477px;
     display: flex;
     flex-direction: column;
-    width: 29.1667%; min-width: 224px; height: 477px;
   }
   .snsmark button {
     width: auto; height: 120px;
@@ -764,6 +807,7 @@
     right: 0;
   }
 
+  /* language --------------- */
   .language_part {
     width: 50%;
   }
@@ -795,6 +839,8 @@
   .language_part li button { 
     text-transform: uppercase; 
   }
+  
+  /* brandsite -------------- */
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
@@ -829,6 +875,8 @@
     display: block;
     width: 100%; height: auto;
   }
+  
+  /* top button */
   .to_top {
     display: none;
     position: fixed;
