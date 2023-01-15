@@ -21,6 +21,8 @@
     box-sizing: border-box;
     padding: 12px 40px;
   }
+  
+  /* logo part */
   h1 {
     width: 100%; min-width: 890px; 
     height: auto;
@@ -31,6 +33,8 @@
     height: 20px;
     margin-top: 14px;
   }
+  
+  /* user navigation */
   .unb {
     width: auto; min-width: 470px; 
     height: 46px;
@@ -39,6 +43,7 @@
     text-transform: uppercase;
     text-align: center;
   }
+  /* page 이동 */
   .about_part {
     width: 6.25%; min-width: 90px;
     height: 50px;
@@ -63,6 +68,7 @@
     height: 100%;
     text-decoration: none;
   }
+  /* search */
   .search_part {
     float: right;
     width: auto;
@@ -101,7 +107,7 @@
     text-transform: capitalize;
   }
 
-/* ---------------------------------- */
+  /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1440px;
     height: 50%;
@@ -109,6 +115,7 @@
     margin: auto; 
     box-sizing: border-box;
   }
+  /* global navigaition */
   .gnb {
     display: flex;
     justify-content: space-between;
@@ -116,6 +123,7 @@
     height: 100%;
     margin: auto;
   }
+  /* global navigaition low slide menu */
   .submenu_part {
     position: relative;
     display: inline-block;
@@ -160,6 +168,8 @@
     justify-content: space-between;
   }
   .header_m {display: none;}
+  
+  /* .mainBox ========================= */
   .mainBox {
     width: auto;
     height: auto;
@@ -200,11 +210,13 @@
     border-radius: 10px;
   }
 
+  /* #about_inner01 ===================== */
   #about_inner01 {
     width: 83.3333%; min-width: 1200px; 
     height: auto;
     margin: auto;
   }
+  /* 1st about */
   .about_txt_left h4 {
     font-size: 20px;
   }
@@ -232,6 +244,7 @@
     font-size: 20px;
     line-height: 30px;
   }
+  /* 2st about */
   .about_txt02 {
     display: flex;
     width: 100%; min-width: 1200px;
@@ -262,6 +275,7 @@
     border-radius: 10px;
   }
 
+  /* #about_inner02 ======================== */
   #about_inner02 {
     width: 83.333%; min-width: 1200px; 
     height: 650px;
@@ -282,6 +296,7 @@
     margin: auto;
     margin-top: 20px;
   }
+  /* philsophy image */
   .philosophy_img {
     width: 100%; min-width: 1200px; 
     height: auto;
@@ -315,6 +330,7 @@
   .phil_img03 img {
     width: 100%;
   }
+  /* philsophy text */
   .phil_txt {
     float: left;
     width: 100%; min-width: 1200px; 
@@ -329,6 +345,7 @@
     line-height: 50px;
   }
 
+  /* #about_inner03 ======================= */
   #about_inner03 {
     width: 83.333%; min-width: 1200px; 
     height: 100%;
@@ -355,6 +372,7 @@
     margin: auto;
   }
 
+  /* #about_inner04 ======================== */
   #about_inner04 {
     width: 83.333%; min-width: 1200px; 
     height: auto;
@@ -383,6 +401,7 @@
     height: 330px;
     margin: 30px 0;
   }
+  /* ci img */
   .ediyaci_img {
     width: 37.5%; min-width: 450px; 
     height: 300px;
@@ -457,6 +476,8 @@
     top: 30px;
     right: 0;
   }
+  
+  /* language --------------- */
   .language_part {
     width: 50%;
   }
@@ -488,6 +509,8 @@
   .language_part li button {
     text-transform: uppercase;
   }
+  
+  /* brandsite -------------- */
   .brandsite_part {
     width: 50%;
     margin-left: 5px;
@@ -522,6 +545,8 @@
     display: block;
     width: 100%; height: auto;
   }
+  
+  /* top button */
   .to_top {
     display: none;
     position: fixed;

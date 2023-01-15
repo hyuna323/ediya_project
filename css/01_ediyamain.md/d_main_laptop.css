@@ -477,13 +477,13 @@
     float: right;
     margin-top: 12px;
   }
+
+  /* dreamfactory button */
   .dreamfactory_btn {
     width: 35.0781%; min-width: 449px;
     height: 70px;
     margin-top: 50px;
   }
-  
-  /* dreamfactory button */
   .dream_fc {
     width: 10.9375%; min-width: 140px;
     height: 45px;
@@ -512,7 +512,7 @@
     cursor: pointer;
   }
   
-  /* #companyaboutBox ========================= */
+  /* #companyabBox ========================= */
   #companyabBox {
     width: 100%; min-width: 1280px;
     height: 496px;

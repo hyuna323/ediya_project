@@ -168,6 +168,8 @@
     justify-content: space-between;
   }
   .header_m {display: none;}
+
+  /* .mainBox ========================= */
   .mainBox {
     width: auto;
     height: auto;
@@ -280,7 +282,6 @@
     height: 518px;
     float: left;
   }
-  
   .menu_inner {
     width: 40.625%; min-width: 585px;
     height: 422px;
@@ -312,7 +313,7 @@
     margin-top: 50px;
     margin-right: 80px;
   }
-  /* food */
+  /* drink */
   .menu_dk {
     width: 26.667%; min-width: 152px;
     height: 50px;
