@@ -301,7 +301,9 @@
   }
   .shortcut_inner {
     width: 100%; min-width: 320px; 
-    height: 197px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0.625% 3.125% 3.125% 3.125%;
   }
 
@@ -309,24 +311,26 @@
   .drinkInner {
     width: 49.875%;
     height: 90px;
-    float: left;
     background-color: #ddd;
     background-image: url(../../img/drink.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+  .drink_TX {
+    display: flex;
+    flex-wrap: wrap;
   }
   .drink_TX span {
     width: 86.875%; min-width: 139px;
     padding: 3.33333333% 3.66666667%;
     font-size: 16px;
     font-weight: 400;
-    float: left;
-    color: #000;
+    text-align: left;
     text-transform: uppercase;
+    color: #000;
   }
   /* bakery --------------------------------- */
   .bakeryInner {
-    float: left;
     width: 49.875%; 
     height: 90px;
     background-color: #aaa;
@@ -334,29 +338,35 @@
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .bk_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .bk_TX span {
     width: 86.875%; min-width: 139px;
-    padding: 2.33333333% 6.66666667%;
-    float: right;
+    padding: 3.33333333% 3.66666667%;
     font-size: 16px;
     font-weight: 400;
     text-align: right;
     text-transform: uppercase;
+    color: #000;
   }
   /* md ------------------------------------- */
   .mdInner {
     width: 49.875%; 
     height: 90px;
-    float: left;
     background-color: #aaa;
     background-image: url(../../img/md.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .md_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .md_TX span {
     width: 86.875%; min-width: 139px;
-    padding: 3.33333333% 6.66666667%;
-    float: left;
+    padding: 3.33333333% 3.66666667%;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -365,15 +375,17 @@
   .bistroInner {
     width: 49.875%;
     height: 90px;
-    float: left;
     background-image: url(../../img/bistro.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .bst_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .bst_TX span {
     width: 86.875%; min-width: 139px;
-    padding: 2.33333333% 6.66666667%;
-    float: right;
+    padding: 3.33333333% 3.66666667%;
     font-size: 16px;
     font-weight: 400;
     text-align: right;
@@ -381,22 +393,24 @@
   }
   /* more button ---------------------------- */
   .left_more {
-    width: 18.75%; min-width: 60px;
+    width: 100%; min-width: 60px;
+    height: 20px;
     padding: 1.07692308%;
-    margin: 5px 5%;
+    margin: 5px;
+    margin-right: 80px;
     font-size: 12px;
     color: #000;
-    float: left;
     border-radius: 3px;
     outline: solid 1px;
   }
   .right_more {
-    width: 18.75%; min-width: 60px;
+    width: 100%; min-width: 60px;
+    height: 20px;
     padding: 1.07692308%;
-    margin: 5px 5%;
+    margin: 5px;
+    margin-left: 80px;
     font-size: 12px;
     color: #000;
-    float: right;
     border-radius: 3px;
     outline: solid 1px;
   }
@@ -617,7 +631,7 @@
   }
   .foot_main h2 button img {
     width: 28.125%; min-width: 90px; 
-    height: 18px;
+    height: 15px;
     margin: auto;
     display: block;
   }

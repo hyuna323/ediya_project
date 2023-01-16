@@ -306,39 +306,49 @@
   }
   .shortcut_inner {
     width: 100%; min-width: 768px;
-    height: 380px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
     padding: 2px 14px 14px;
   }
   
   /* drink --------------------------------- */
   .drinkInner {
     width: 49.875%; height: 180px;
-    float: left;
     background-color: #ddd;
     background-image: url(../../img/drink.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .drink_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .drink_TX span {
     width: 86%; min-width: 350px;
-    padding: 4.35501355% 5.7100271%;
-    float: left;
+    padding: 4.35501355% 2.710027%;
     font-size: 22px;
     font-weight: 400;
+    text-align: left;
     text-transform: uppercase;
+    color: #000;
   }
   /* bakery --------------------------------- */
   .bakeryInner {
-    width: 49.875%; height: 180px;
-    float: left;
+    width: 49.875%;
+    height: 180px;
     background-color: #aaa;
     background-image: url(../../img/bakery.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .bk_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .bk_TX span {
     width: 86%; min-width: 350px;
-    padding: 4.35501355% 5.7100271%;
+    padding: 4.35501355% 2.710027%;
     font-size: 22px;
     font-weight: 400;
     float: right;
@@ -347,16 +357,20 @@
   }
   /* md ------------------------------------- */
   .mdInner {
-    width: 49.875%; height: 180px;
-    float: left;
+    width: 49.875%;
+    height: 180px;
     background-color: #aaa;
     background-image: url(../../img/md.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .md_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .md_TX span {
     width: 86%; min-width: 350px;
-    padding: 4.35501355% 5.7100271%;
+    padding: 4.35501355% 2.710027%;
     float: left;
     font-size: 22px;
     font-weight: 400;
@@ -364,16 +378,19 @@
   }
   /* bistro -------------------------------------- */
   .bistroInner {
-    width: 49.875%; height: 180px;
-    float: left;
+    width: 49.875%;
+    height: 180px;
     background-image: url(../../img/bistro.svg);
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .bst_TX {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .bst_TX span {
     width: 86%; min-width: 350px;
-    padding: 4.35501355% 5.7100271%;
-    float: right;
+    padding: 4.35501355% 2.710027%;
     font-size: 22px;
     font-weight: 400;
     text-align: right;
@@ -381,18 +398,19 @@
   }
   /* more button ---------------------------- */
   .left_more {
-    width: 14.323%; min-width: 110px;
-    margin: 5px 5%;
+    width: 100%; min-width: 110px;
+    margin: 10px;
+    margin-right: 250px;
     padding: 1.4084507%;
-    float: left;
     font-size: 16px;
     color: #000;
     border-radius: 4px;
     outline: solid 1px;
   }
   .right_more {
-    width: 14.323%; min-width: 110px;
-    margin: 5px 5%;
+    width: 100%; min-width: 110px;
+    margin: 10px;
+    margin-left: 250px;
     padding: 1.4084507%;
     font-size: 16px;
     color: #000;
