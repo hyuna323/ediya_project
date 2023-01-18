@@ -8,9 +8,9 @@
   #headBox {
     width: 100%; min-width: 320px;
     height: 60px;
-    box-sizing: border-box;
     padding: 10px 12px 14px 12px;
     position: fixed;
+    box-sizing: border-box;
     z-index: 1000;
     background-color: #fff;
   }
@@ -22,11 +22,13 @@
   
   /* logo part */
   h1 {
+    width: 33.75%; min-width: 108px;
+    height: auto;
     float: left;
-    width: 33.75%; min-width: 108px; height: auto;
   }
   .head_inner h1 button img {
-    width: 100%; min-width: 108px; height: 12px;
+    width: 100%; min-width: 108px;
+    height: 12px;
   }
   .unb {display: none;}
   .gnb {display: none;}
@@ -34,11 +36,11 @@
   /* moblie slide part --------------------- */
   #headBox .header_m {padding-left: 34.375%;}
   .header_m {
-    float: right;
     width: auto; 
     height: 26px;
     margin: auto;
     margin-top: 10px;
+    float: right;
     box-sizing: border-box;
   }
   #unbInner {
@@ -49,22 +51,22 @@
   /* slide menu button */
   #check_box {display: none;}
   #check_box + label {
-    position: relative;
-    display: block;
     width: 11.875%; min-width: 38px;
     height: 20px;
-    cursor: pointer;
-    z-index: 100;
     margin: auto;
+    display: block;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
   }
   #check_box + label > span {
-    position: absolute;
-    display: block;
     width: 100%;
     height: 3px;
-    background: black;
-    border-radius: 5px;
+    display: block;
+    position: absolute;
     transition: all 300ms;
+    border-radius: 5px;
+    background: black;
   }
   #check_box:checked + label > span:nth-child(1) {
     top: 50%;
@@ -92,30 +94,30 @@
   
   /* #slide_menu ------------------------------ */
   #slide_menu {
-    position: fixed;
     width: 100%; min-width: 281px;
     height: 100%;
-    background-color: rgba(36, 48, 90, 86%);
-    text-transform: uppercase;
-    left: 100%;
-    transition: all 300ms;
-    z-index: 1;
-    top: 0px;
     padding: 60px 16px 20px 16px;
+    position: fixed;
+    top: 0px;
+    left: 100%;
     box-sizing: border-box;
+    transition: all 300ms;
     overflow: auto;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: rgba(36, 48, 90, 86%);
   }
   input[id*="slide_btn"] {display: none;}
   input[id*="slide_btn"] + label {
     width: auto;
-    display: block;
     padding: 10px;
+    display: block;
+    position: relative;
     border-bottom: 1px solid #fff;
     font-size: 18px;
-    color: #eee;
     font-weight: 400;
+    color: #eee;
     cursor: pointer;
-    position: relative;
   }
   input[id*="slide_btn"] + label + div {
     max-height: 0;
@@ -126,7 +128,6 @@
     color: #fff;
   }
   input[id*="slide_btn"] + label + div a {
-    display: inline-block;
     padding: 10px;
     display: flex;
   }
@@ -143,24 +144,24 @@
     height: auto;
   }
   .search_part fieldset {
-    display: flex;
     width: auto;
     height: auto;
+    display: flex;
   }
   #searchInput {
     width: 53.75%; min-width: 172px;
     height: 44px;
     margin-right: 8px;
     padding-left: 5px;
-    border-radius: 4px;
     border: 1px solid #aaaaaa;
+    border-radius: 4px;
   }
   .search_btn {
     width: 21.875%; min-width: 70px;
-    border-radius: 4px;
-    border: 1px solid #fff;
-    color: #fff;
     text-transform: capitalize;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
   }
   
   /* sns */
@@ -175,7 +176,8 @@
     color: #ddd;
   }
   .sns_part button img {
-    width: 26px; height: 26px;
+    width: 26px;
+    height: 26px;
     margin-right: 5px;
     color: #aaa;
   }
@@ -184,19 +186,19 @@
   .mainBox {
     width: auto;
     height: auto;
-    top: 0;
-    left: 0;
-    right: 0;
     padding-top: 60px;
+    top: 0;
+    right: 0;
+    left: 0;
   }
 
   /* aboutBox ====================== */
   #aboutBox {
     width: 100%; min-width: 320px;
     height: auto;
-    position: relative;
     margin-top: 18px;
     margin-bottom: 20px;
+    position: relative;
   }
   #about_inner {
     width: 100%; min-width: 320px;
@@ -207,10 +209,10 @@
     width: 100%; min-width: 320px;
     height: 34px;
     margin: auto;
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 18px;
   }
   .intro {
     width: 93.75%; min-width: 300px; 
@@ -231,8 +233,8 @@
   }
   /* 1st about */
   .about_txt_left h4 {
-    font-size: 16px;
     margin-bottom: 8px;
+    font-size: 16px;
   }
   .about_txt01 {
     width: 100%; min-width: 300px;
@@ -245,8 +247,8 @@
     width: 100%; min-width: 300px;
     height: 100%;
     margin: auto;
-    font-size: 13px;
     line-height: 20px;
+    font-size: 13px;
   }
   /* 2st about */
   .about_txt02 {
@@ -254,25 +256,25 @@
     height: 200px;
     margin: auto;
     margin-top: 10px;
+    display: block;
+    font-weight: 400;
+    color: #000;
     background: url(../../img/about_inner02_gray.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    display: block;
-    color: #000;
-    font-weight: 400;
   }
   .about_txt_right h4 {
-    font-size: 16px;
     margin-bottom: 8px;
+    font-size: 16px;
   }
   .about_txt_right {
     width: 93.75%; min-width: 300px;
     height: auto;
     margin: auto;
-    font-size: 13px;
-    line-height: 20px;
     padding: 5px;
     position: absolute;
+    line-height: 20px;
+    font-size: 13px;
   }
 
   /* #about_inner02 ======================== */
@@ -286,8 +288,8 @@
     width: 100%; min-width: 300px;
     height: 28px;
     margin: auto;
-    text-align: center;
     font-size: 17px;
+    text-align: center;
   }
   .philosophy {
     width: 93.75%; height: 300px;
@@ -300,45 +302,46 @@
     height: auto;
   }
   .phil_img01 {
-    float: left;
     width: 32%; min-width: 96px; 
     height: auto;
     margin: auto;
     margin-right: 1.666%;
+    float: left;
   }
   .phil_img01 img {
     width: 100%;
   }
   .phil_img02 {
-    float: left;
     width: 32%; min-width: 96px; 
     height: auto;
     margin: auto;
     margin-right: 1.666%;
+    float: left;
   }
   .phil_img02 img {
     width: 100%;
   }
   .phil_img03 {
-    float: left;
     width: 32%; min-width: 96px; 
     height: auto;
     margin: auto;
+    float: left;
   }
   .phil_img03 img {
     width: 100%;
   }
   /* philsophy text */
   .phil_txt {
-    float: left;
     width: 100%; min-width: 300px; 
     height: auto;
     margin: auto;
     margin-top: 10px;
     line-height: 18px;
+    float: left;
   }
   .phil_txt span {
-    width: 100%; height: 250px;
+    width: 100%;
+    height: 250px;
     font-size: 11px;
     font-weight: 400;
   }
@@ -354,8 +357,8 @@
     width: 100%; min-width: 300px;
     height: 28px;
     margin: auto;
-    text-align: center;
     font-size: 17px;
+    text-align: center;
   }
   .value {
     width: 100%; min-width: 300px;
@@ -379,16 +382,16 @@
     width: 100%; min-width: 300px;
     height: 28px;
     margin: auto;
-    text-align: center;
-    font-size: 17px;
     margin-bottom: 10px;
+    font-size: 17px;
+    text-align: center;
     text-transform: uppercase;
   }
   .ediyaci {
-    display: flex;
     width: 100%;
     height: 180px;
     margin: 10px 0;
+    display: flex;
   }
   .cl_subtitle {
     width: auto; 
@@ -414,8 +417,8 @@
     height: 100%;
     margin: auto;
     padding: 20px 10px;
-    font-size: 10px;
     line-height: 18px;
+    font-size: 10px;
     font-weight: 400;
   }
   .ediyaci_txt span {
@@ -426,21 +429,22 @@
 
   /* #footBox ========================= */
   #footBox {
-    float: left;
     width: 100%; min-width: 320px;
     height: auto;
+    float: left;
     border-top: 3px solid #243c84;
   }
   .foot_inner {
-    width: 93.75%; min-width: 300px; height: auto;
+    width: 93.75%; min-width: 300px;
+    height: auto;
     margin: 10px auto;
     position: relative;
   }
   .foot_main {
-    font-weight: 300;
-    color: #000;
-    text-align: center;
     position: relative;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
   }
   .foot_main h2 {
     width: 100%; min-width: 300px;
@@ -448,19 +452,21 @@
     margin: auto;
   }  
   .foot_main h2 button img {
-    width: 28.125%; min-width: 90px; height: 18px;
+    width: 28.125%; min-width: 90px;
+    height: 18px;
     margin: auto;
     display: block;
   }
   .foot_main .company_info {
-    width: 100%; min-width: 300px; height: auto;
+    width: 100%; min-width: 300px;
+    height: auto;
   }
   .foot_main .company_info li {
     font-size: 14px;
   }
   .foot_main p {
-    font-size: 12px;
     margin-top: 2.5%;
+    font-size: 12px;
     font-weight: 400;
   }
   .foot_main .footsubmenu {display: none;}
@@ -469,20 +475,20 @@
   .to_top {
     display: none;
     position: fixed;
-    bottom: 15px;
     right: 4%;
+    bottom: 15px;
     z-index: 1;
   }
   .to_top.on {
     display: block;
   }
   .to_top span {
-    display: inline-block;
     width: 30px;
     height: 30px;
-    cursor: pointer;
+    display: inline-block;
     background: url(../../img/to_top2color.svg)no-repeat center;
     background-size: 30px;
+    cursor: pointer;
   }
   .to_top span:hover {
     background: url(../../img/to_top_fill.svg)no-repeat center;

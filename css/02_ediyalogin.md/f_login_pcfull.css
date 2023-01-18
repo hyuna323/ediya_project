@@ -7,18 +7,18 @@
   /* #headBox ========================= */
   #headBox { 
     width: 100%; height: 180px; 
-    box-sizing: border-box;
     position: fixed;
+    box-sizing: border-box;
     z-index: 999;
     background-color: #fff;
   }
   .head_inner {
     width: 100%; min-width: 1920px;
     height: 50%;
-    display: flex;
     margin: auto;
-    box-sizing: border-box;
     padding: 16px 40px;
+    display: flex;
+    box-sizing: border-box;
   }
   
   /* logo part */
@@ -49,9 +49,9 @@
     line-height: 54px;
   }
   .about_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     font-size: 20px;
     text-decoration: none;
   }
@@ -61,29 +61,29 @@
     line-height: 54px;
   }
   .login_part a {
-    display: block;
-    font-size: 20px;
     width: auto;
     height: 100%;
+    display: block;
+    font-size: 20px;
     text-decoration: none;
   }
   /* search */
   .search_part {
-    float: right;
     width: auto;
     height: auto;
     margin: auto;
     margin-top: 5px;
     margin-left: 18px;
+    float: right;
   }
   .search_part form {
     width: auto;
     height: auto;
   }
   .search_part fieldset {
-    display: flex;
     width: auto;
     height: auto;
+    display: flex;
   }
   #unbsearchInput {
     width: 44%; min-width: 220px;
@@ -91,80 +91,80 @@
     margin: auto;
     margin-right: 8px;
     padding-left: 10px;
-    border-radius: 4px;
-    font-size: 18px;
     border: 1px solid #aaaaaa;
+    font-size: 18px;
+    border-radius: 4px;
   }
   .search_btn {
     width: 16%; min-width: 80px;
     height: 48px;
-    border-radius: 5px;
     border: 1px solid #fff;
-    background-color: #243c84;
-    color: #fff;
     font-size: 19px;
     text-transform: capitalize;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #243c84;
   }
 
   /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1920px;
     height: 50%;
-    background-color: #243c84;
     margin: auto;
     box-sizing: border-box;
+    background-color: #243c84;
   }
   /* global navigaition */
   .gnb {
-    display: flex;
     width: 62.7083%; min-width: 1204px; 
-    justify-content: space-between;
     height: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
   }
   /* global navigaition low slide menu */
   .submenu_part {
-    position: relative;
     display: inline-block;
+    position: relative;
   }
   .btn_part {
     width: 14.5148%; min-width: 172px;
     height: 100%;
-    line-height: 48px;
-    border-radius: 4px;
-    font-weight: 300;
     padding: 12px;
-    cursor: pointer;
+    line-height: 48px;
     font-size: 22px;
+    font-weight: 300;
     text-align: center;
     color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
   }
   .submenu_inner {
     width: 100%; min-width: 220px;
     margin-left: -20px;
     display: none;
     position: absolute;
-    z-index: 1;
     font-weight: 300;
-    background-color: #fff;
     text-align: center;
     text-transform: uppercase;
+    z-index: 1;
+    background-color: #fff;
   }
   .submenu_inner a {
-    display: block;
-    text-decoration: none;
-    font-size: 21px;
     padding: 12px 6px;
+    display: block;
+    font-size: 21px;
+    text-decoration: none;
   }
   .submenu_inner a:hover {
-    font-weight: 500;
-    font-size: 22px;
-    color: #243c84;
     width: auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: #243c84;
   }
   .submenu_part:hover .submenu_inner {
-    margin-left: -14px;
     width: 220px;
+    margin-left: -14px;
     display: block;
     border: 1px solid #243c84;
     justify-content: space-between;
@@ -175,18 +175,18 @@
   .mainBox {
     width: auto;
     height: auto;
-    top: 0;
-    left: 0;
-    right: 0;
     padding-top: 180px;
+    top: 0;
+    right: 0;
+    left: 0;
   }
     
 /* #loginBox ============================ */
   #loginBox {
     width: 100%; min-width: 1920px;
     height: auto;
-    padding: 0;
     margin: auto;
+    padding: 0;
     background-image: url(../../img/loginbackground768.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -201,17 +201,17 @@
     height: 114px;
     margin: auto;
     padding: 30px;
-    color: #fff;
-    text-align: center;
     font-size: 26px;
+    text-align: center;
+    color: #fff;
   }
   .welcometext li {
     width: 40.521%; min-width: 778px;
     height: 72px;
-    font-size: 22px;
-    text-align: center;
     margin: auto;
     padding: 20px 0;
+    font-size: 22px;
+    text-align: center;
     color: #fff;
   }
   .loginmain {
@@ -229,35 +229,35 @@
   .privite {
     width: 31.146%; min-width: 600px;
     height: 190px;
-    border: none;
-    padding: 0;
     margin: auto;
     margin-top: 50px;
+    padding: 0;
+    border: none;
   }
   #userId {
     width: 100%; min-width: 600px;
     height: 90px;
-    border-radius: 5px;
-    font-size: 20px;
     padding: 14px;
+    font-size: 20px;
+    border-radius: 5px;
   }
   #userPw {
     width: 100%; min-width: 600px;
     height: 90px;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 14px;
     margin-top: 10px;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 5px;
   }
   
   /* 아이디 저장, 자동 로그인 ------------ */
   .checkbox_inner {
-    display: flex;
     width: 99.666%; min-width: 598px;
     height: 40px;
-    line-height: 30px;
     margin-top: 20px;
     padding-top: 10px;
+    display: flex;
+    line-height: 30px;
     border: none;
   }
   .checkbox_inner input {
@@ -266,25 +266,27 @@
     border: 1px solid #ededed;
   }
   .id_check_inner {
-    width: auto; height: auto;
+    width: auto;
+    height: auto;
   }
   .id_check_inner span {
     width: auto; 
     height: 35px;
     margin: auto;
     margin-left: 10px;
-    cursor: pointer;  
-    color: #fff;
     font-size: 20px;
+    color: #fff;
+    cursor: pointer;  
   }
   /* login button */
   .login_btn {
-    width: 31.25%; min-width: 600px; height: 75px;
-    border-radius: 5px;
-    background-color: #24305A;
-    text-align: center;
+    width: 31.25%; min-width: 600px;
+    height: 75px;
     margin: auto;
     margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #24305A;
   }
   .login {
     width: 100%; 
@@ -292,77 +294,83 @@
     line-height: 75px;
   }
   .login button {
-    color: #fff;
     font-size: 22px;
     font-weight: 500;
+    color: #fff;
   }
   
   /* 회원가입, 아이디 찾기, 비밀번호 찾기 button */
   .etc_area {
     width: 100%; min-width: 600px; 
     height: 70px;
-    padding: 20px;
     margin: auto;
     margin-top: 22px;
+    padding: 20px;
   }
   .etc_area ul {
-    width: 100%; height: 70px;
+    width: 100%;
+    height: 70px;
     margin: auto;
     text-align: center;
   }
   .etc_area li {
+    width: 29.5%; min-width: 177px;
+    height: 50px;
+    margin-right: 5px;
     display: inline-block;
-    width: 29.5%; min-width: 177px; height: 50px;
     line-height: 50px;
     font-size: 18px;
     text-align: center;
-    background-color: #eee;
-    margin-right: 5px;
     border-radius: 5px;
+    background-color: #eee;
   }
   .membership_area {
-    width: 35.416%; min-width: 680px; height: 280px;
+    width: 35.416%; min-width: 680px;
+    height: 280px;
     margin: auto;
     margin-top: 120px;
     padding-top: 25px;
     text-align: center;
-    background-color:  rgba(238, 238, 238, 75%);
     border-radius: 10px;
+    background-color:  rgba(238, 238, 238, 75%);
   }
   .membership_area i {
-    width: 31.25%; min-width: 600px; height: 236px;
+    width: 31.25%; min-width: 600px;
+    height: 236px;
     font-size: 19px;
   }
   
   #open {
-    width: 66.176%; min-width: 450px; height: 60px;
+    width: 66.176%; min-width: 450px;
+    height: 60px;
     margin: auto;
     margin-top: 30px;
+    line-height: 50px;
     font-size: 20px;
     font-weight: 400;
-    color: #fff;
     text-align: center;
-    line-height: 50px;
-    background-color: rgba(36, 48, 90, 94%);
+    color: #fff;
     border-radius: 7px;
+    background-color: rgba(36, 48, 90, 94%);
   }
   .modal {display: none;}
   
   /* #footBox =========================================== */
   #footBox {
-    float: left;
     width: 100%; min-width: 1920px;
     height: auto;
+    float: left;
     border-top: 3px solid #243c84;
   }
   .foot_inner {
-    width: 71.1458%; min-width: 1366px; height: auto;
+    width: 71.1458%; min-width: 1366px;
+    height: auto;
     margin: 34px auto;
   }
   .foot_main {
-    color: #000;
-    text-align: center;
     position: relative;
+    text-align: center;
+    color: #000;
   }
   .foot_main h2 {
     width: auto;
@@ -379,16 +387,16 @@
     height: auto;
   }
   .foot_main .company_info li {
-    font-size: 21px;
     display: inline-block;
+    font-size: 21px;
   }
   .foot_main .company_info li::after {
     padding: 0 14px;
     content: 'l';
   }
   .foot_main p {
-    font-size: 18px;
     margin-top: 26px;
+    font-size: 18px;
     font-weight: 400;
   }
   .foot_main .footsubmenu {
@@ -410,24 +418,27 @@
     margin-top: 6px;
   }
   .language_btn img {
-    width: 45px; height: 45px;
+    width: 45px;
+    height: 45px;
   }
   .language_part ul {
-    display: none;
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px;
-    border: 1px solid #262626;
+    display: none;
     position: relative;
-    cursor: pointer;
+    border: 1px solid #262626;
     text-align: center;
+    cursor: pointer;
   }
   .language_part ul.on {
+    width: 100%;
+    height: auto;
     display: block;
-    width: 100%; height: auto;
   }
   .language_part li {
-    width: auto; height: 30px;
+    width: auto;
+    height: 30px;
     line-height: 20px;
   }
   .language_part li button {
@@ -440,7 +451,8 @@
     margin-left: 5px;
   }
   .brandsite_part li {
-    width: auto; height: 35px;
+    width: auto;
+    height: 35px;
     line-height: 25px;
   }
   .brandsite_part li button {
@@ -448,47 +460,49 @@
     text-transform: uppercase; 
   }
   .brandsite_btn {
-    width: 100%; height: 60px;
+    width: 100%;
+    height: 60px;
     line-height: 42px;
-    background-color: #243c84;
-    border-radius: 5px;
-    color: #fff;
     font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #243c84;
   }
   .brandsite_part ul {
-    display: none;
-    width: 100%; height: auto;
+    width: 100%;
+    height: auto;
     margin-top: 10px;
     padding: 5px 8px;
-    /* margin-bottom: 25px; */
-    border: 1px solid #262626;
+    display: none;
     position: relative;
-    cursor: pointer;
+    border: 1px solid #262626;
     text-align: center;
+    cursor: pointer;
   }
   .brandsite_part ul.on {
+    width: 100%;
+    height: auto;
     display: block;
-    width: 100%; height: auto;
   }
   
   /* top button */
   .to_top {
     display: none;
     position: fixed;
-    bottom: 15px;
     right: 4%;
+    bottom: 15px;
     z-index: 1;
   }
   .to_top.on {
     display: block;
   }
   .to_top span {
-    display: inline-block;
     width: 60px;
     height: 60px;
-    cursor: pointer;
+    display: inline-block;
     background: url(../../img/to_top2color.svg)no-repeat center;
     background-size: 60px;
+    cursor: pointer;
   }
   .to_top span:hover {
     background: url(../../img/to_top_fill.svg)no-repeat center;

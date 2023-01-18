@@ -8,8 +8,8 @@
   #headBox { 
     width: 100%; min-width: 1280px;
     height: 140px;
-    box-sizing: border-box;
     position: fixed;
+    box-sizing: border-box;
     z-index: 999;
     background-color: #fff;
   }
@@ -46,8 +46,8 @@
   .about_part {
     width: 6.25%; min-width: 80px;
     height: 50px;
-    font-size: 16px;
     line-height: 46px;
+    font-size: 16px;
   }
   .about_part a {
     width: auto;
@@ -58,13 +58,13 @@
   .login_part {
     width: 6.25%; min-width: 80px;
     height: 50px;
-    font-size: 16px;
     line-height: 46px;
+    font-size: 16px;
   }
   .login_part a {
-    display: block;
     width: auto;
     height: 100%;
+    display: block;
     text-decoration: none;
   }
   /* search */
@@ -72,8 +72,8 @@
     width: auto;
     height: auto;
     margin: auto;
-    float: right;
     margin-left: 10px;
+    float: right;
   }
   .search_part form {
     width: auto;
@@ -90,28 +90,28 @@
     margin: auto;
     margin-right: 8px;
     padding-left: 10px;
-    border-radius: 4px;
     font-size: 14px;
     border: 1px solid #aaaaaa;
+    border-radius: 4px;
   }
   .search_btn {
     width: 28.571%; min-width: 80px;
     height: 40px;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    background-color: #243c84;
-    color: #fff;
     font-size: 15px;
     text-transform: capitalize;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #243c84;
   }
 
   /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1280px;
     height: 50%;
-    background-color: #243c84;
     margin: auto;
     box-sizing: border-box;
+    background-color: #243c84;
   }
   /* global navigaition */
   .gnb {
@@ -123,30 +123,30 @@
   }
   /* global navigaition low slide menu */
   .submenu_part {
-    position: relative;
     display: inline-block;
+    position: relative;
   }
   .btn_part {
     width: 16.055%; min-width: 140px;
     height: 100%;
-    line-height: 48px;
-    border-radius: 4px;
-    font-weight: 300;
     padding: 12px;
-    cursor: pointer;
+    line-height: 48px;
     font-size: 18px;
+    font-weight: 300;
     text-align: center;
     color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
   }
   .submenu_inner {
     width: 100%; min-width: 178px;
     display: none;
     position: absolute;
-    z-index: 1;
-    font-weight: 300;
-    background-color: #fff;
-    text-align: center;
     right: -13px;
+    font-weight: 300;
+    text-align: center;
+    z-index: 1;
+    background-color: #fff;
   }
   .submenu_inner a {
     padding: 12px 8px;
@@ -156,8 +156,8 @@
   }
   .submenu_inner a:hover {
     width: auto;
-    font-weight: 500;
     font-size: 17px;
+    font-weight: 500;
     color: #243c84;
   }
   .submenu_part:hover .submenu_inner {
@@ -171,8 +171,8 @@
     height: auto;
     padding-top: 140px;
     top: 0;
-    left: 0;
     right: 0;
+    left: 0;
   }
     
   /* #viewBox ========================= */
@@ -218,25 +218,25 @@
   .swiper-button-next, .swiper-button-prev {
     width: 40px;
     height: 40px;
+    position: absolute;
     top: 50%;
-    background-color: rgba(240, 240, 240, 0.7);
     backdrop-filter: blur(3px);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    z-index: 1001;
+    border-radius: 50%;
     background-size: 18px;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: 1001;
-    border-radius: 50%;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    position: absolute;
+    background-color: rgba(240, 240, 240, 0.7);
   }
   .swiper-button-next::after, .swiper-rtlswiper-button-next::after, .swiper-button-prev::after, 
   .swiper-rtlswiper-button-prev::after {display: none;}
   
   .swiper-button-prev:hover, 
   .swiper-button-next:hover {
-    background-color: #004fff;
     box-shadow: 0 4px 12px rgba(0, 79, 255, 0.4);
+    background-color: #004fff;
   }
   .swiper-button-prev {
     left: 20px;
@@ -315,10 +315,10 @@
   .menu_dk {
     width: 26.9388%; min-width: 132px;
     height: 45px;
-    font-size: 17px;
-    line-height: 45px;
     margin-bottom: 10px;
+    line-height: 45px;
     float: right;
+    font-size: 17px;
     border: 1px solid #cccccc;
     border-radius: 6px;
     cursor: pointer;
@@ -327,10 +327,10 @@
   .menu_fd {
     width: 26.9388%; min-width: 132px;
     height: 45px;
+    margin-bottom: 10px;
+    line-height: 45px;
     float: right;
     font-size: 17px;
-    line-height: 45px;
-    margin-bottom: 10px;
     border: 1px solid #cccccc;
     border-radius: 6px;
     cursor: pointer;
@@ -340,10 +340,10 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     margin-bottom: 10px;
+    line-height: 45px;
     float: right;
     font-size: 17px;
     text-transform: uppercase;
-    line-height: 45px;
     border: 1px solid #cccccc;
     border-radius: 6px;
     cursor: pointer;
@@ -391,9 +391,9 @@
     width: 26.9388%; min-width: 132px;
     height: 45px;
     margin-bottom: 5px;
+    line-height: 45px;
     float: right;
     font-size: 17px;
-    line-height: 45px;
     border: 1px solid #151515;
     border-radius: 6px;
     cursor: pointer;
@@ -405,20 +405,20 @@
     margin-bottom: 5px;
     line-height: 45px;
     float: right;
+    font-size: 17px;
+    text-transform: uppercase;
     border: 1px solid #151515;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 17px;
-    text-transform: uppercase;
   }
   /* 연혁 */
   .brandStory_ht {
     width: 26.9388%; min-width: 132px;
     height: 45px;
+    margin-bottom: 5px;
+    line-height: 45px;
     float: right;
     font-size: 17px;
-    line-height: 45px;
-    margin-bottom: 5px;
     border: 1px solid #151515;
     border-radius: 6px;
     cursor: pointer;
@@ -428,9 +428,9 @@
     width: 88%; min-width: 132px;
     height: 45px;
     margin-bottom: 5px;
+    line-height: 45px;
     float: right;
     font-size: 17px;
-    line-height: 45px;
     border: 1px solid #151515;
     border-radius: 6px;
     cursor: pointer;
@@ -439,9 +439,9 @@
   .brandStory_aw {
     width: 26.9388%; min-width: 132px;
     height: 45px;
+    line-height: 45px;
     float: right;
     font-size: 17px;
-    line-height: 45px;
     border: 1px solid #151515;
     border-radius: 6px;
     cursor: pointer;
@@ -474,8 +474,8 @@
   .dreamImg {
     width: 49.2188%; min-width: 630px; 
     height: 244px;
-    float: right;
     margin-top: 12px;
+    float: right;
   }
 
   /* dreamfactory button */
@@ -487,29 +487,29 @@
   .dream_fc {
     width: 10.9375%; min-width: 140px;
     height: 45px;
-    float: right;
-    font-size: 16px;
     margin-right: 10px;
     line-height: 45px;
+    float: right;
+    opacity: 0.6;
+    font-size: 16px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    background-color: #dddddd;
-    opacity: 0.6;
     border-radius: 6px;
     cursor: pointer;
+    background-color: #dddddd;
   }
   .dream_lc {
     width: 10.9375%; min-width: 140px;
     height: 45px;
-    float: right;
-    font-size: 16px;
     line-height: 45px;
+    float: right;
+    opacity: 0.6;
+    font-size: 16px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    background-color: #dddddd;
-    opacity: 0.6;
     border-radius: 6px;
     cursor: pointer;
+    background-color: #dddddd;
   }
   
   /* #companyabBox ========================= */
@@ -556,28 +556,28 @@
     width: 29.457%; min-width: 152px;
     height: 45px;
     margin-bottom: 10px;
-    float: right;
     line-height: 45px;
+    float: right;
+    opacity: 0.6;
     font-size: 17px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    background-color: #dddddd;
-    opacity: 0.6;
     border-radius: 6px;
     cursor: pointer;
+    background-color: #dddddd;
   }
   .franchise_pt {
     width: 29.457%; min-width: 152px;
     height: 45px;
-    float: right;
-    font-size: 17px;
     line-height: 45px;
+    float: right;
+    opacity: 0.6;
+    font-size: 17px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    background-color: #dddddd;
-    opacity: 0.6;
     border-radius: 6px;
     cursor: pointer;
+    background-color: #dddddd;
   }
   /* sns */
   .sns_inner {
@@ -624,8 +624,8 @@
   .snsmark button span {
     width: 80px;
     height: 25px;
-    font-size: 22px;
     line-height: 25px;
+    font-size: 22px;
   }
   .snsmark button img {
     margin: 0 26px;
@@ -699,10 +699,10 @@
   }
   .foot_main .footsubmenu {
     width: 22.7687%; min-width: 250px;
-    top: 10px;
-    right: 0;
     display: flex;
     position: absolute;
+    top: 10px;
+    right: 0;
   }
   
   /* language --------------- */
@@ -723,8 +723,8 @@
     margin-top: 10px;
     padding: 10px 8px;
     display: none;
-    border: 1px solid #262626;
     position: relative;
+    border: 1px solid #262626;
     text-align: center;
     cursor: pointer;
   }
@@ -760,10 +760,10 @@
     width: 100%;
     height: 42px;
     line-height: 42px;
-    background-color: #243c84;
-    border-radius: 5px;
     font-size: 15px;
     color: #fff;
+    border-radius: 5px;
+    background-color: #243c84;
   }
   .brandsite_part ul {
     width: 100%;
@@ -771,8 +771,8 @@
     margin-top: 10px;
     padding: 5px 8px;
     display: none;
-    border: 1px solid #262626;
     position: relative;
+    border: 1px solid #262626;
     text-align: center;
     cursor: pointer;
   }
@@ -784,10 +784,10 @@
   
   /* top button */
   .to_top {
+    display: none;
     position: fixed;
     right: 4%;
     bottom: 15px;
-    display: none;
     z-index: 1;
   }
   .to_top.on {
@@ -797,9 +797,9 @@
     width: 50px;
     height: 50px;
     display: inline-block;
-    cursor: pointer;
     background: url(../../img/to_top2color.svg)no-repeat center;
     background-size: 50px;
+    cursor: pointer;
   }
   .to_top span:hover {
     background: url(../../img/to_top_fill.svg)no-repeat center;
