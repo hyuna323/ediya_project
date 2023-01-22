@@ -319,14 +319,13 @@
     background-image: url(../../img/drink.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #ddd;
   }
   .drink_TX {
     display: flex;
     flex-wrap: wrap;
   }
   .drink_TX span {
-    width: 86%; min-width: 350px;
+    width: 100%; min-width: 350px;
     padding: 4.35501355% 2.710027%;
     font-size: 22px;
     font-weight: 400;
@@ -341,20 +340,19 @@
     background-image: url(../../img/bakery.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #aaa;
   }
   .bk_TX {
     display: flex;
     flex-wrap: wrap;
   }
   .bk_TX span {
-    width: 86%; min-width: 350px;
+    width: 100%; min-width: 350px;
     padding: 4.35501355% 2.710027%;
-    float: right;
     font-size: 22px;
     font-weight: 400;
     text-align: right;
     text-transform: uppercase;
+    color: #000;
   }
   /* md ------------------------------------- */
   .mdInner {
@@ -363,19 +361,18 @@
     background-image: url(../../img/md.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #aaa;
   }
   .md_TX {
     display: flex;
     flex-wrap: wrap;
   }
   .md_TX span {
-    width: 86%; min-width: 350px;
+    width: 100%; min-width: 350px;
     padding: 4.35501355% 2.710027%;
-    float: left;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
+    color: #000;
   }
   /* bistro -------------------------------------- */
   .bistroInner {
@@ -390,30 +387,30 @@
     flex-wrap: wrap;
   }
   .bst_TX span {
-    width: 86%; min-width: 350px;
+    width: 100%; min-width: 350px;
     padding: 4.35501355% 2.710027%;
     font-size: 22px;
     font-weight: 400;
     text-align: right;
     text-transform: uppercase;
+    color: #000;
   }
   /* more button ---------------------------- */
   .left_more {
-    width: 100%; min-width: 110px;
+    width: 29.730%; min-width: 110px;
     margin: 10px;
-    margin-right: 250px;
+    margin-right: 67.5%;
     padding: 1.4084507%;
-    font-size: 16px;
     outline: solid 1px;
-    border-radius: 4px;
+    font-size: 16px;
     color: #000;
+    border-radius: 4px;
   }
   .right_more {
-    width: 100%; min-width: 110px;
+    width: 29.730%; min-width: 110px;
     margin: 10px;
-    margin-left: 250px;
+    margin-left: 67.5%;
     padding: 1.4084507%;
-    float: right;
     outline: solid 1px;
     font-size: 16px;
     color: #000;
@@ -494,16 +491,15 @@
   /* #companyaboutBox ========================= */
   #companyabBox {
     width: 100%; min-width: 768px;
-    height: auto;
-    float: left;
+    height: 300px;
+    display: flex;
   }
   
   /* franchise part */
   .franchise_inner {
     width: 43.75%; min-width: 336px;
     height: 264px;
-    margin: 3.72093023% 1.72093023% 3.72093023% 4.36046512%;
-    float: left;
+    margin: auto;
   }
   .franchise {
     width: 100%; min-width: 336px;
@@ -562,11 +558,9 @@
   
   /* brand story part */
   .ediyastory_inner {
-    width: 43.75%; min-width: 336px;
+    width: 46%; min-width: 336px;
     height: 264px;
-    margin: 3.72093023% 4.36046512% 3.72093023% 1.72093023%;
-    float: left;
-    background-color: #ddd;
+    margin: auto;
   }
   .ediyastory {
     width: 100%; min-width: 336px;

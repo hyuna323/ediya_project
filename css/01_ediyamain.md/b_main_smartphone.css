@@ -123,10 +123,10 @@
   }
   input[id*="slide_btn"] + label + div {
     max-height: 0;
+    transition: all .35s;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
-    transition: all .35s;
     overflow: hidden;
   }
   input[id*="slide_btn"] + label + div a {
@@ -392,10 +392,10 @@
   }
   /* more button ---------------------------- */
   .left_more {
-    width: 100%; min-width: 60px;
+    width: 40%; min-width: 60px;
     height: 20px;
     margin: 5px;
-    margin-right: 80px;
+    margin-right: 56%;
     padding: 1.07692308%;
     outline: solid 1px;
     font-size: 12px;
@@ -403,10 +403,10 @@
     border-radius: 3px;
   }
   .right_more {
-    width: 100%; min-width: 60px;
+    width: 40%; min-width: 60px;
     height: 20px;
     margin: 5px;
-    margin-left: 80px;
+    margin-left: 56%;
     padding: 1.07692308%;
     outline: solid 1px;
     font-size: 12px;
@@ -488,16 +488,16 @@
 /* #companyaboutBox ========================= */
   #companyabBox {
     width: 100%; min-width: 320px;
-    height: auto;
-    float: left;
+    height: 150px;
+    display: flex;
   }
 
   /* franchise part */
   .franchise_inner {
-    width: 40.625%; min-width: 130px; 
+    width: 46%; min-width: 148px; 
     height: 114px;
-    margin: 5.3846154% 2.84615385% 5.3846154% 5.1307692%;
-    float: left;
+    /* margin: 5.3846154% 2.84615385% 5.3846154% 5.1307692%; */
+    margin: auto;
   }
   .franchise {
     width: 100%; min-width: 130px;
@@ -559,11 +559,9 @@
 
   /* brand story part */
   .ediyastory_inner {
-    width: 40.625%; min-width: 130px; 
+    width: 46%; min-width: 148px;
     height: 114px;
-    margin: 5.3846154% 5.1846154% 5.3846154% 0.84615385%;
-    float: right;
-    background-color: #ddd;
+    margin: auto;
   }
   .ediyastory {
     width: 100%; min-width: 130px; 

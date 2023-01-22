@@ -142,7 +142,7 @@
     width: 100%; min-width: 178px;
     display: none;
     position: absolute;
-    right: -13px;
+    margin-left: -20px;
     font-weight: 300;
     text-align: center;
     z-index: 1;
@@ -153,6 +153,7 @@
     display: block;
     font-size: 16px;
     text-decoration: none;
+    text-transform: uppercase;
   }
   .submenu_inner a:hover {
     width: auto;
