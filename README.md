@@ -23,8 +23,9 @@
 </details>
 <details>
 <summary>💙 login page</summary>
-<img src="./img/readme/login_page.png" width="300" height="500">
+  <img src="./img/readme/login_page.png" width="300" height="500">
 </details>
+<details>
 <summary>💙 about page</summary>
-<img src="./img/readme/about_page.png" width="300" height="500">
+  <img src="./img/readme/about_page.png" width="300" height="500">
 </details>
