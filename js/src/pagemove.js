@@ -3,19 +3,19 @@
 // mainpage
 // 베르첼 배포시 url 바꾸기
 function home(){
-  let url = "https://hyunao.github.io/ediya_project/html/01_ediya_main.html";
+  let url = "https://hyuna323.github.io/ediya_project/html/01_ediya_main.html";
   window.location = url;
 }
 
 // loginpage
 function login(){
-  let url = "https://hyunao.github.io/ediya_project/html/02_ediya_login.html";
+  let url = "https://hyuna323.github.io/ediya_project/html/02_ediya_login.html";
   window.location = url;
   }
 
 // aboutpage
 function about(){
-  let url = "https://hyunao.github.io/ediya_project/html/03_ediya_about.html";
+  let url = "https://hyuna323.github.io/ediya_project/html/03_ediya_about.html";
   window.location = url;
   }
 
