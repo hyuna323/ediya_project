@@ -1,7 +1,5 @@
 
-// page 이동 ---------------------------------------------
 // mainpage
-// 베르첼 배포시 url 바꾸기
 function home(){
   let url = "https://hyuna323.github.io/ediya_project/html/01_ediya_main.html";
   window.location = url;

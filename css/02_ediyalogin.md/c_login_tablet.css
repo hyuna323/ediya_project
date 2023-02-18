@@ -305,6 +305,8 @@
     line-height: 60px;
   }
   .login button {
+    width: 100%;
+    height: 100%;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
