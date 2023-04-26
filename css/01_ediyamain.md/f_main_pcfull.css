@@ -23,7 +23,7 @@
   
   /* logo part */
   h1 {
-    width: 100%; min-width: 1320px; 
+    width: 100%; min-width: 1316px; 
     height: auto;
     margin: auto;
   }
@@ -689,7 +689,7 @@
   }
   /* sns */
   .sns_inner {
-    width: 40%; min-width: 768px; 
+    width: 40.3%; min-width: 768px; 
     height: 477px;
     margin: 2.969% 7.2% 3.331% 2.731%;
     display: flex;

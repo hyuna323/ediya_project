@@ -24,7 +24,7 @@
   
   /* logo part */
   h1 {
-    width: 100%; min-width: 890px; 
+    width: 100%; min-width: 880px; 
     height: auto;
     margin: auto;
   }
@@ -36,7 +36,7 @@
   
   /* user navigation */
   .unb {
-    width: auto; min-width: 470px; 
+    width: auto; min-width: 480px; 
     height: 46px;
     display: flex;
     float: right;
@@ -582,7 +582,7 @@
   }
   /* sns */
   .sns_inner {
-    width: 40.625%; min-width: 585px;
+    width: 44.625%; min-width: 585px;
     height: 416px;
     margin: 4.375%;
     display: flex;
