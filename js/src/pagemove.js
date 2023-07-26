@@ -1,19 +1,19 @@
 
 // mainpage
 function home(){
-  let url = "https://hyuna323.github.io/ediya_project/html/01_ediya_main.html";
+  let url = "https://main--ornate-sorbet-7af1cf.netlify.app/html/01_ediya_main.html";
   window.location = url;
 }
 
 // loginpage
 function login(){
-  let url = "https://hyuna323.github.io/ediya_project/html/02_ediya_login.html";
+  let url = "https://main--ornate-sorbet-7af1cf.netlify.app/html/02_ediya_login.html";
   window.location = url;
   }
 
 // aboutpage
 function about(){
-  let url = "https://hyuna323.github.io/ediya_project/html/03_ediya_about.html";
+  let url = "https://main--ornate-sorbet-7af1cf.netlify.app/html/03_ediya_about.html";
   window.location = url;
   }
 
