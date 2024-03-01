@@ -7,7 +7,7 @@
   /* #headBox =================================== */
   #headBox { 
     width: 100%; min-width: 1280px;
-    height: 140px;
+    height: 110px;
     position: fixed;
     box-sizing: border-box;
     z-index: 999;
@@ -15,7 +15,7 @@
   }
   .head_inner {
     width: 100%; min-width: 1280px; max-width: 1439px;
-    height: 50%;
+    height: 55%;
     margin: auto;
     padding: 13px 40px;
     display: flex;
@@ -108,14 +108,13 @@
   /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1280px;
-    height: 50%;
+    height: 45%;
     margin: auto;
     box-sizing: border-box;
-    background-color: #243c84;
   }
   /* global navigaition */
   .gnb {
-    width: 77.109%; min-width: 987px; 
+    width: 64.5%; min-width: 826px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -130,19 +129,18 @@
     width: 16.055%; min-width: 140px;
     height: 100%;
     padding: 12px;
-    line-height: 48px;
-    font-size: 18px;
+    line-height: 29px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
-    color: #fff;
+    color: #000;
     border-radius: 4px;
     cursor: pointer;
   }
   .submenu_inner {
-    width: 100%; min-width: 178px;
+    width: 100%;
     display: none;
     position: absolute;
-    margin-left: -20px;
     font-weight: 300;
     text-align: center;
     z-index: 1;
@@ -170,7 +168,7 @@
   .mainBox {
     width: auto;
     height: auto;
-    padding-top: 140px;
+    padding-top: 110px;
     top: 0;
     right: 0;
     left: 0;
@@ -183,8 +181,9 @@
     height: auto;
   }
   .swiper-slide img {
-    width: 100%;
+    width: 88%;
     height: auto;
+    margin: auto;
     display: block;
     cursor: pointer;
   }
@@ -199,7 +198,6 @@
   .swiper-slide {
     width: 100%;
     height: auto;
-    background-color: #eee;
   }
   .swiper-pagination-bullet {
     width: 40px;
@@ -240,7 +238,7 @@
     background-color: #004fff;
   }
   .swiper-button-prev {
-    left: 20px;
+    left: 25px;
     background-image: url(../../img/arrow_left.png);
   }
   .swiper-button-prev:hover {
@@ -248,7 +246,7 @@
     background-size: 60%;
   }
   .swiper-button-next {
-    right: 20px;
+    right: 25px;
     background-image: url(../../img/arrow_right.png);
   }
   .swiper-button-next:hover {
@@ -320,8 +318,7 @@
     line-height: 45px;
     float: right;
     font-size: 17px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   /* food */
@@ -332,8 +329,7 @@
     line-height: 45px;
     float: right;
     font-size: 17px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   /* md */
@@ -345,8 +341,7 @@
     float: right;
     font-size: 17px;
     text-transform: uppercase;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   .menu_p {
@@ -396,7 +391,6 @@
     float: right;
     font-size: 17px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* ceo 인사말 */
@@ -409,7 +403,6 @@
     font-size: 17px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 연혁 */
@@ -421,7 +414,6 @@
     float: right;
     font-size: 17px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 오시는 길 */
@@ -433,7 +425,6 @@
     float: right;
     font-size: 17px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 수상내역 */
@@ -444,7 +435,6 @@
     float: right;
     font-size: 17px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
     
@@ -491,26 +481,22 @@
     margin-right: 10px;
     line-height: 45px;
     float: right;
-    opacity: 0.6;
     font-size: 16px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
   .dream_lc {
     width: 10.9375%; min-width: 140px;
     height: 45px;
     line-height: 45px;
     float: right;
-    opacity: 0.6;
     font-size: 16px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
   
   /* #companyabBox ========================= */
@@ -559,27 +545,27 @@
     margin-bottom: 10px;
     line-height: 45px;
     float: right;
-    opacity: 0.6;
     font-size: 17px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
   .franchise_pt {
     width: 29.457%; min-width: 152px;
     height: 45px;
     line-height: 45px;
     float: right;
-    opacity: 0.6;
     font-size: 17px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
+  .franchise p {
+    display: none;
+  }
+  
   /* sns */
   .sns_inner {
     width: 42.1875%; min-width: 540px;

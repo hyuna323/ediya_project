@@ -6,7 +6,7 @@
 
   /* #headBox ========================= */
   #headBox { 
-    width:100%; height: 180px; 
+    width:100%; height: 140px; 
     position: fixed;
     box-sizing:border-box;
     z-index: 999;
@@ -14,7 +14,7 @@
   }
   .head_inner {
     width: 100%; min-width: 1920px;
-    height: 50%;
+    height: 55%;
     margin: auto;
     padding: 16px 40px;
     display: flex;
@@ -108,10 +108,9 @@
   /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1920px;
-    height: 50%;
+    height: 45%;
     margin: auto;
     box-sizing: border-box;
-    background-color: #243c84;
   }
   /* global navigaition */
   .gnb {
@@ -130,11 +129,11 @@
     width: 14.5148%; min-width: 172px;
     height: 100%;
     padding: 12px;
-    line-height: 48px;
+    line-height: 29px;
     font-size: 22px;
     font-weight: 300;
     text-align: center;
-    color: #fff;
+    color: #000;
     border-radius: 4px;
     cursor: pointer;
   }
@@ -171,7 +170,7 @@
   .mainBox {
     width: auto;
     height: auto;
-    padding-top: 180px;
+    padding-top: 140px;
     top: 0;
     right: 0;
     left: 0;
@@ -316,26 +315,22 @@
     margin-right: 10px;
     line-height: 50px;
     float: right;
-    opacity: 0.6;
     font-size: 20px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
   .dream_lc {
     width: 9.375%; min-width: 180px;
     height: 50px;
     line-height: 50px;
     float: right;
-    opacity: 0.6;
     font-size: 20px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
 
   /* #storefindBox ========================= */
@@ -495,8 +490,7 @@
     line-height: 50px;
     float: right;
     font-size: 22px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   /* food */
@@ -507,8 +501,7 @@
     float: right;
     line-height: 50px;
     font-size: 22px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   /* md */
@@ -519,8 +512,7 @@
     float: right;
     font-size: 22px;
     text-transform: uppercase;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   .menu_p {
@@ -567,7 +559,6 @@
     float: right;
     font-size: 20px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* ceo 인사말 */
@@ -579,7 +570,6 @@
     float: right;
     font-size: 20px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 연혁 */
@@ -591,7 +581,6 @@
     float: right;
     font-size: 20px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 오시는 길 */
@@ -603,7 +592,6 @@
     float: right;
     font-size: 20px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 수상내역 */
@@ -614,7 +602,6 @@
     float: right;
     font-size: 20px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   
@@ -666,13 +653,11 @@
     margin-bottom: 10px;
     line-height: 55px;
     float: right;
-    opacity: 0.6;
     font-size: 22px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
   .franchise_pt {
     width: 10.4167%; min-width: 200px;
@@ -683,10 +668,13 @@
     font-size: 22px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
+  .franchise p {
+    display: none;
+  }
+  
   /* sns */
   .sns_inner {
     width: 40.3%; min-width: 768px; 

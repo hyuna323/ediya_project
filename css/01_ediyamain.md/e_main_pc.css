@@ -7,7 +7,7 @@
   /* #headBox ========================= */
   #headBox {
     width: 100%; min-width: 1440px;
-    height: 140px;
+    height: 110px;
     position: fixed;
     box-sizing: border-box;
     z-index: 999;
@@ -15,7 +15,7 @@
   }
   .head_inner {
     width: 100%; max-width: 1919px; min-width: 1440px;
-    height: 50%;
+    height: 55%;
     margin: auto;
     padding: 12px 40px;
     display: flex;
@@ -110,14 +110,13 @@
   /* .head_inner02 ---------------------------------- */
   .head_inner02 {
     width: 100%; min-width: 1440px;
-    height: 50%;
+    height: 45%;
     margin: auto; 
     box-sizing: border-box;
-    background-color: #243c84;
   }
   /* global navigaition */
   .gnb {
-    width: 71.667%; min-width: 1176px; 
+    width: 53.5%; min-width: 840px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -129,22 +128,21 @@
     position: relative;
   }
   .btn_part {
-    width: 11.667%; min-width: 168px;
+    width: 11.667%; min-width: 120px;
     height: 100%;
     padding: 12px;
-    line-height: 48px;
+    line-height: 29px;
     font-size: 18px;
     font-weight: 300;
     text-align: center;
-    color: #fff;
+    color: #000;
     border-radius: 4px;
     cursor: pointer;
   }
   .submenu_inner {
-    width: 100%; min-width: 176px;
+    width: 100%; min-width: 110px;
     display: none;
     position: absolute;
-    margin-left: -7px;
     font-weight: 300;
     text-align: center;
     z-index: 1;
@@ -174,7 +172,7 @@
   .mainBox {
     width: auto;
     height: auto;
-    padding-top: 140px;
+    padding-top: 110px;
     top: 0;
     right: 0;
     left: 0;
@@ -187,8 +185,9 @@
     height: auto;
   }
   .swiper-slide img {
-    width: 100%;
+    width: 89%;
     height: auto;
+    margin: auto;
     display: block;
     cursor: pointer;
   }
@@ -203,7 +202,6 @@
   .swiper-slide {
     width: 100%;
     height: auto;
-    background-color: #eee;
   }
   .swiper-pagination-bullet {
     width: 40px;
@@ -322,8 +320,7 @@
     line-height: 50px;
     float: right;
     font-size: 18px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   /* food */
@@ -334,8 +331,7 @@
     line-height: 50px;
     float: right;
     font-size: 18px;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   /* md */
@@ -346,8 +342,7 @@
     float: right;
     font-size: 18px;
     text-transform: uppercase;
-    border: 1px solid #cccccc;
-    border-radius: 6px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   .menu_p {
@@ -397,7 +392,6 @@
     float: right;
     font-size: 18px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* ceo 인사말 */
@@ -409,7 +403,6 @@
     float: right;
     font-size: 18px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 연혁 */
@@ -420,7 +413,6 @@
     line-height: 50px;
     float: right;
     font-size: 18px;
-    border-radius: 6px;
     border: 1px solid #151515;
     cursor: pointer;
   }
@@ -433,7 +425,6 @@
     float: right;
     font-size: 18px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   /* 수상내역 */
@@ -444,7 +435,6 @@
     float: right;
     font-size: 18px;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
   }
   
@@ -490,25 +480,21 @@
     margin-right: 10px;
     line-height: 47px;
     float: right;
-    opacity: 0.6;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
     cursor: pointer;
-    background-color: #dddddd;
+    background-color: #fff;
   }
   .dream_lc {
     width: 11.8056%; min-width: 170px;
     height: 47px;
     line-height: 47px;
     float: right;
-    opacity: 0.6;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
-    background-color: #dddddd;
+    background-color: #fff;
     cursor: pointer;
   }
   
@@ -558,12 +544,10 @@
     margin-bottom: 5px;
     line-height: 50px;
     float: right;
-    opacity: 0.6;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
-    background-color: #dddddd;
+    background-color: #fff;
     cursor: pointer;
   }
   .franchise_pt {
@@ -572,14 +556,16 @@
     margin-bottom: 5px;
     line-height: 50px;
     float: right;
-    opacity: 0.6;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid #151515;
-    border-radius: 6px;
-    background-color: #dddddd;
+    background-color: #fff;
     cursor: pointer;
   }
+  .franchise p {
+    display: none;
+  }
+  
   /* sns */
   .sns_inner {
     width: 44.625%; min-width: 585px;
